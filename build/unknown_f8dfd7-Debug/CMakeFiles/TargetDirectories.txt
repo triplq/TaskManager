@@ -1,0 +1,9 @@
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/TaskManager.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/edit_cache.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/rebuild_cache.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/list_install_components.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/install.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/install/local.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/install/strip.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/TaskManager_autogen_timestamp_deps.dir
+/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/TaskManager_autogen.dir
