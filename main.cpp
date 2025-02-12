@@ -10,16 +10,16 @@ int main(int argc, char *argv[])
     //MainWindow w;
 
     TaskManager o;
-    //o.addTask("clas"); success
-    o.deleteTask("lastb");
-    std::vector<std::string> all_tasks{o.getAllTasks()};
+    //o.addTask("clas");
+    // o.deleteTask("lastb");
+    // std::vector<std::string> all_tasks{o.getAllTasks()};
 
-    while(!all_tasks.empty())
-    {
-        qDebug() << all_tasks[all_tasks.size()-1] << ' ';
-        all_tasks.pop_back();
-    }
-    qDebug() << '\n';
+    // while(!all_tasks.empty())
+    // {
+    //     qDebug() << all_tasks[all_tasks.size()-1] << ' ';
+    //     all_tasks.pop_back();
+    // }
+    // qDebug() << '\n';
 
     //o.editTask(4, "Mr.Boba"); success
     //o.completeTask(4); success

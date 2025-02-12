@@ -4,7 +4,7 @@ TaskManager::TaskManager() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL", "task_db");
     db.setHostName("localhost");
     db.setDatabaseName("task_db");
-    db.setUserName("postgres");
+    db.setUserName("db_user");
     db.setPassword("12345");
     db.setPort(5432);
 
