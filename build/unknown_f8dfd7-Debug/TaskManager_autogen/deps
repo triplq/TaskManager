@@ -132,6 +132,8 @@ TaskManager_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
 	/Users/alexey/TaskManager/CMakeLists.txt \
+	/Users/alexey/TaskManager/admin.cpp \
+	/Users/alexey/TaskManager/admin.h \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/.qtc/package-manager/auto-setup.cmake \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeCXXCompiler.cmake \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeSystem.cmake \
@@ -143,6 +145,8 @@ TaskManager_autogen/timestamp: \
 	/Users/alexey/TaskManager/task.h \
 	/Users/alexey/TaskManager/taskmanager.cpp \
 	/Users/alexey/TaskManager/taskmanager.h \
+	/Users/alexey/TaskManager/user.cpp \
+	/Users/alexey/TaskManager/user.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20memory.h \

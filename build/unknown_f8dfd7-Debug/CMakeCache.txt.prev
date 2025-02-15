@@ -596,6 +596,8 @@ QT_FEATURE_avx512vbmi2:INTERNAL=OFF
 QT_FEATURE_avx512vl:INTERNAL=OFF
 //Qt feature: backtrace (from target Qt6::Core)
 QT_FEATURE_backtrace:INTERNAL=ON
+//Qt feature: broken_threadlocal_dtors (from target Qt6::Core)
+QT_FEATURE_broken_threadlocal_dtors:INTERNAL=OFF
 //Qt feature: buttongroup (from target Qt6::Widgets)
 QT_FEATURE_buttongroup:INTERNAL=ON
 //Qt feature: calendarwidget (from target Qt6::Widgets)
@@ -650,6 +652,8 @@ QT_FEATURE_cxx11_future:INTERNAL=ON
 QT_FEATURE_cxx17_filesystem:INTERNAL=ON
 //Qt feature: cxx20 (from target Qt6::Core)
 QT_FEATURE_cxx20:INTERNAL=OFF
+//Qt feature: cxx23_stacktrace (from target Qt6::Core)
+QT_FEATURE_cxx23_stacktrace:INTERNAL=OFF
 //Qt feature: cxx2a (from target Qt6::Core)
 QT_FEATURE_cxx2a:INTERNAL=OFF
 //Qt feature: cxx2b (from target Qt6::Core)
@@ -786,6 +790,8 @@ QT_FEATURE_getentropy:INTERNAL=ON
 QT_FEATURE_gif:INTERNAL=ON
 //Qt feature: glib (from target Qt6::Core)
 QT_FEATURE_glib:INTERNAL=ON
+//Qt feature: glibc_fortify_source (from target Qt6::Core)
+QT_FEATURE_glibc_fortify_source:INTERNAL=OFF
 //Qt feature: graphicseffect (from target Qt6::Widgets)
 QT_FEATURE_graphicseffect:INTERNAL=ON
 //Qt feature: graphicsframecapture (from target Qt6::Gui)
@@ -864,6 +870,8 @@ QT_FEATURE_label:INTERNAL=ON
 QT_FEATURE_largefile:INTERNAL=ON
 //Qt feature: lcdnumber (from target Qt6::Widgets)
 QT_FEATURE_lcdnumber:INTERNAL=ON
+//Qt feature: libcpp_hardening (from target Qt6::Core)
+QT_FEATURE_libcpp_hardening:INTERNAL=ON
 //Qt feature: libinput (from target Qt6::Gui)
 QT_FEATURE_libinput:INTERNAL=OFF
 //Qt feature: libinput_axis_api (from target Qt6::Gui)
@@ -872,6 +880,8 @@ QT_FEATURE_libinput_axis_api:INTERNAL=OFF
 QT_FEATURE_libinput_hires_wheel_support:INTERNAL=OFF
 //Qt feature: library (from target Qt6::Core)
 QT_FEATURE_library:INTERNAL=ON
+//Qt feature: libstdcpp_assertions (from target Qt6::Core)
+QT_FEATURE_libstdcpp_assertions:INTERNAL=OFF
 //Qt feature: libudev (from target Qt6::Core)
 QT_FEATURE_libudev:INTERNAL=OFF
 //Qt feature: lineedit (from target Qt6::Widgets)
@@ -884,18 +894,28 @@ QT_FEATURE_linuxfb:INTERNAL=OFF
 QT_FEATURE_listview:INTERNAL=ON
 //Qt feature: listwidget (from target Qt6::Widgets)
 QT_FEATURE_listwidget:INTERNAL=ON
+//Qt feature: localtime_r (from target Qt6::Core)
+QT_FEATURE_localtime_r:INTERNAL=ON
+//Qt feature: localtime_s (from target Qt6::Core)
+QT_FEATURE_localtime_s:INTERNAL=OFF
 //Qt feature: lttng (from target Qt6::Core)
 QT_FEATURE_lttng:INTERNAL=OFF
 //Qt feature: mainwindow (from target Qt6::Widgets)
 QT_FEATURE_mainwindow:INTERNAL=ON
 //Qt feature: mdiarea (from target Qt6::Widgets)
 QT_FEATURE_mdiarea:INTERNAL=ON
+//Qt feature: memmem (from target Qt6::Core)
+QT_FEATURE_memmem:INTERNAL=ON
+//Qt feature: memrchr (from target Qt6::Core)
+QT_FEATURE_memrchr:INTERNAL=OFF
 //Qt feature: menu (from target Qt6::Widgets)
 QT_FEATURE_menu:INTERNAL=ON
 //Qt feature: menubar (from target Qt6::Widgets)
 QT_FEATURE_menubar:INTERNAL=ON
 //Qt feature: messagebox (from target Qt6::Widgets)
 QT_FEATURE_messagebox:INTERNAL=ON
+//Qt feature: metal (from target Qt6::Gui)
+QT_FEATURE_metal:INTERNAL=ON
 //Qt feature: mimetype (from target Qt6::Core)
 QT_FEATURE_mimetype:INTERNAL=ON
 //Qt feature: mimetype_database (from target Qt6::Core)
@@ -1010,6 +1030,8 @@ QT_FEATURE_reduce_relocations:INTERNAL=OFF
 QT_FEATURE_regularexpression:INTERNAL=ON
 //Qt feature: relocatable (from target Qt6::Core)
 QT_FEATURE_relocatable:INTERNAL=OFF
+//Qt feature: relro_now_linker (from target Qt6::Core)
+QT_FEATURE_relro_now_linker:INTERNAL=OFF
 //Qt feature: renameat2 (from target Qt6::Core)
 QT_FEATURE_renameat2:INTERNAL=OFF
 //Qt feature: resizehandler (from target Qt6::Widgets)
@@ -1072,6 +1094,10 @@ QT_FEATURE_sse4_1:INTERNAL=OFF
 QT_FEATURE_sse4_2:INTERNAL=OFF
 //Qt feature: ssse3 (from target Qt6::Core)
 QT_FEATURE_ssse3:INTERNAL=OFF
+//Qt feature: stack_clash_protection (from target Qt6::Core)
+QT_FEATURE_stack_clash_protection:INTERNAL=OFF
+//Qt feature: stack_protector (from target Qt6::Core)
+QT_FEATURE_stack_protector:INTERNAL=ON
 //Qt feature: stack_protector_strong (from target Qt6::Core)
 QT_FEATURE_stack_protector_strong:INTERNAL=OFF
 //Qt feature: stackedwidget (from target Qt6::Widgets)
@@ -1168,6 +1194,8 @@ QT_FEATURE_textodfwriter:INTERNAL=ON
 QT_FEATURE_thread:INTERNAL=ON
 //Qt feature: timezone (from target Qt6::Core)
 QT_FEATURE_timezone:INTERNAL=ON
+//Qt feature: timezone_locale (from target Qt6::Core)
+QT_FEATURE_timezone_locale:INTERNAL=ON
 //Qt feature: toolbar (from target Qt6::Widgets)
 QT_FEATURE_toolbar:INTERNAL=ON
 //Qt feature: toolbox (from target Qt6::Widgets)
@@ -1184,6 +1212,8 @@ QT_FEATURE_transposeproxymodel:INTERNAL=ON
 QT_FEATURE_treeview:INTERNAL=ON
 //Qt feature: treewidget (from target Qt6::Widgets)
 QT_FEATURE_treewidget:INTERNAL=ON
+//Qt feature: trivial_auto_var_init_pattern (from target Qt6::Core)
+QT_FEATURE_trivial_auto_var_init_pattern:INTERNAL=ON
 //Qt feature: tslib (from target Qt6::Gui)
 QT_FEATURE_tslib:INTERNAL=OFF
 //Qt feature: tuiotouch (from target Qt6::Gui)
@@ -1208,6 +1238,8 @@ QT_FEATURE_use_mold_linker:INTERNAL=OFF
 QT_FEATURE_vaes:INTERNAL=OFF
 //Qt feature: validator (from target Qt6::Gui)
 QT_FEATURE_validator:INTERNAL=ON
+//Qt feature: version_tagging (from target Qt6::Core)
+QT_FEATURE_version_tagging:INTERNAL=ON
 //Qt feature: vkgen (from target Qt6::Gui)
 QT_FEATURE_vkgen:INTERNAL=ON
 //Qt feature: vkkhrdisplay (from target Qt6::Gui)

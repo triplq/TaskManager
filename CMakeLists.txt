@@ -25,6 +25,11 @@ qt_add_executable(TaskManager
     task.cpp
     taskmanager.h
     taskmanager.cpp
+    user.h
+    user.cpp
+    admin.h
+    admin.cpp
+
 )
 
 target_link_libraries(TaskManager PRIVATE Qt6::Widgets Qt6::Sql Qt6::Core)

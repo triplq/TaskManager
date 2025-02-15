@@ -78,44 +78,6 @@
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/QtInstallPaths.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtFeature.cmake",
-		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtFeatureCommon.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicGitHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
-		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
-		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"/opt/homebrew/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
@@ -414,6 +376,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/alexey/TaskManager/admin.h",
+			"MU",
+			"EWIEGA46WW/moc_admin.cpp",
+			null
+		],
+		[
 			"/Users/alexey/TaskManager/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -429,6 +397,12 @@
 			"/Users/alexey/TaskManager/taskmanager.h",
 			"MU",
 			"EWIEGA46WW/moc_taskmanager.cpp",
+			null
+		],
+		[
+			"/Users/alexey/TaskManager/user.h",
+			"MU",
+			"EWIEGA46WW/moc_user.cpp",
 			null
 		]
 	],
@@ -491,10 +465,12 @@
 	"SETTINGS_FILE" : "/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/TaskManager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/alexey/TaskManager/admin.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/main.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/mainwindow.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/task.cpp", "MU", null ],
-		[ "/Users/alexey/TaskManager/taskmanager.cpp", "MU", null ]
+		[ "/Users/alexey/TaskManager/taskmanager.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/user.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
