@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -248,6 +251,54 @@ admin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/admin.cpp.s
 .PHONY : admin.cpp.s
 
+adminpage.o: adminpage.cpp.o
+.PHONY : adminpage.o
+
+# target to build an object file
+adminpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/adminpage.cpp.o
+.PHONY : adminpage.cpp.o
+
+adminpage.i: adminpage.cpp.i
+.PHONY : adminpage.i
+
+# target to preprocess a source file
+adminpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/adminpage.cpp.i
+.PHONY : adminpage.cpp.i
+
+adminpage.s: adminpage.cpp.s
+.PHONY : adminpage.s
+
+# target to generate assembly for a file
+adminpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/adminpage.cpp.s
+.PHONY : adminpage.cpp.s
+
+hellopage.o: hellopage.cpp.o
+.PHONY : hellopage.o
+
+# target to build an object file
+hellopage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/hellopage.cpp.o
+.PHONY : hellopage.cpp.o
+
+hellopage.i: hellopage.cpp.i
+.PHONY : hellopage.i
+
+# target to preprocess a source file
+hellopage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/hellopage.cpp.i
+.PHONY : hellopage.cpp.i
+
+hellopage.s: hellopage.cpp.s
+.PHONY : hellopage.s
+
+# target to generate assembly for a file
+hellopage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/hellopage.cpp.s
+.PHONY : hellopage.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -295,6 +346,30 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+signinwindow.o: signinwindow.cpp.o
+.PHONY : signinwindow.o
+
+# target to build an object file
+signinwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.o
+.PHONY : signinwindow.cpp.o
+
+signinwindow.i: signinwindow.cpp.i
+.PHONY : signinwindow.i
+
+# target to preprocess a source file
+signinwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.i
+.PHONY : signinwindow.cpp.i
+
+signinwindow.s: signinwindow.cpp.s
+.PHONY : signinwindow.s
+
+# target to generate assembly for a file
+signinwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.s
+.PHONY : signinwindow.cpp.s
 
 task.o: task.cpp.o
 .PHONY : task.o
@@ -389,12 +464,21 @@ help:
 	@echo "... admin.o"
 	@echo "... admin.i"
 	@echo "... admin.s"
+	@echo "... adminpage.o"
+	@echo "... adminpage.i"
+	@echo "... adminpage.s"
+	@echo "... hellopage.o"
+	@echo "... hellopage.i"
+	@echo "... hellopage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... signinwindow.o"
+	@echo "... signinwindow.i"
+	@echo "... signinwindow.s"
 	@echo "... task.o"
 	@echo "... task.i"
 	@echo "... task.s"

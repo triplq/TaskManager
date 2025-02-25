@@ -1122,7 +1122,17 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /Users/alexey/TaskManager/task.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /Users/alexey/TaskManager/hellopage.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/alexey/TaskManager/signinwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
   /Users/alexey/TaskManager/taskmanager.h \
   /opt/homebrew/include/QtSql/QSqlDatabase \
   /opt/homebrew/include/QtSql/qsqldatabase.h \
@@ -1134,6 +1144,12 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlerror.h \
+  /Users/alexey/TaskManager/adminpage.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlTableModel \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqltablemodel.h \
+  /opt/homebrew/include/QtSql/qsqlquerymodel.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /Users/alexey/TaskManager/admin.h /Users/alexey/TaskManager/task.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/include/QtCore/qcoreapplication.h \

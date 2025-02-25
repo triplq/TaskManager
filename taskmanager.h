@@ -7,10 +7,9 @@
 
 class TaskManager {
 public:
-    ~TaskManager();
-
     void open_db();
-    int open_account();
+    void close_db();
+    int open_account(QString &username, QString &phone_password);
 };
 
 #endif // TASKMANAGER_H

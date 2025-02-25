@@ -15,37 +15,30 @@ void TaskManager::open_db()
         qDebug() << "Open";
 }
 
-int TaskManager::open_account()
+int TaskManager::open_account(QString &username, QString &phone_password)
 {
     QSqlDatabase db = QSqlDatabase::database("task_db");
     QSqlQuery query(db);
 
-    std::string username{"bird"};
-    std::string phone_password{"0101"};
-
     query.prepare("SELECT id, name, admin FROM users "
                   "WHERE name = :name AND phone = :pswd");
-    query.bindValue(":name", QString::fromStdString(username));
-    query.bindValue(":pswd", QString::fromStdString(phone_password));
+    query.bindValue(":name", username);
+    query.bindValue(":pswd", phone_password);
     query.exec();
     query.next();
 
-    if(query.value(2).toBool() == true)
-    {
-        qDebug() << "u r a admin";
+    if(query.value(0).isNull())
+        return -1;
+
+    else if(query.value(2).toBool() == true)
         return 0;
-    }
+
     else if(query.value(2).toBool() == false)
-    {
-        qDebug() << "u r a user";
         return query.value(0).toInt();
-    }
-    else
-        qDebug() << "no user";
-        //repeat
+
 }
 
-TaskManager::~TaskManager()
+void TaskManager::close_db()
 {
     QSqlDatabase db = QSqlDatabase::database("task_db");
 

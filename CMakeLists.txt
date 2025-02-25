@@ -6,21 +6,18 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets Sql Core)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-)
-
-qt_add_executable(TaskManager
-    MANUAL_FINALIZATION
-    ${PROJECT_SOURCES}
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
     task.h
     task.cpp
     taskmanager.h
@@ -29,6 +26,22 @@ qt_add_executable(TaskManager
     user.cpp
     admin.h
     admin.cpp
+)
+
+qt_add_executable(TaskManager
+    MANUAL_FINALIZATION
+    ${PROJECT_SOURCES}
+    hellopage.h hellopage.cpp hellopage.ui
+    signinwindow.h signinwindow.cpp signinwindow.ui
+    adminpage.h adminpage.cpp adminpage.ui
+
+
+
+
+
+
+
+
 
 )
 

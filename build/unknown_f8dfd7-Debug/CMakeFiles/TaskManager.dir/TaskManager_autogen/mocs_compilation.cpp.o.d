@@ -1,9 +1,9 @@
 CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/mocs_compilation.cpp \
-  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../mainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_adminpage.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../adminpage.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
@@ -578,7 +578,6 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
-  /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
@@ -1123,5 +1122,37 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlTableModel \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqltablemodel.h \
+  /opt/homebrew/include/QtSql/qtsqlglobal.h \
+  /opt/homebrew/include/QtSql/qtsql-config.h \
+  /opt/homebrew/include/QtSql/qtsqlexports.h \
+  /opt/homebrew/include/QtSql/qsqldatabase.h \
+  /opt/homebrew/include/QtCore/qmetaobject.h \
+  /opt/homebrew/include/QtSql/qsqlquerymodel.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../admin.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../taskmanager.h \
+  /opt/homebrew/include/QtSql/QSqlDatabase \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlQuery \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqlerror.h \
+  /opt/homebrew/include/QtCore/qtmochelpers.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_hellopage.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../hellopage.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /opt/homebrew/include/QtCore/qtmochelpers.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../signinwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_signinwindow.cpp

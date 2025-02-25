@@ -1,0 +1,9 @@
+/Users/alexey/TaskManager/build/CMakeFiles/TaskManager.dir
+/Users/alexey/TaskManager/build/CMakeFiles/edit_cache.dir
+/Users/alexey/TaskManager/build/CMakeFiles/rebuild_cache.dir
+/Users/alexey/TaskManager/build/CMakeFiles/list_install_components.dir
+/Users/alexey/TaskManager/build/CMakeFiles/install.dir
+/Users/alexey/TaskManager/build/CMakeFiles/install/local.dir
+/Users/alexey/TaskManager/build/CMakeFiles/install/strip.dir
+/Users/alexey/TaskManager/build/CMakeFiles/TaskManager_autogen_timestamp_deps.dir
+/Users/alexey/TaskManager/build/CMakeFiles/TaskManager_autogen.dir

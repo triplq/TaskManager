@@ -2,6 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QStackedWidget>
+#include "hellopage.h"
+#include "signinwindow.h"
+#include "adminpage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,5 +23,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void showHelloPage();
+    void showSigninWindow();
+    void showAdminPage();
 };
 #endif // MAINWINDOW_H

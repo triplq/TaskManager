@@ -1123,6 +1123,34 @@ CMakeFiles/TaskManager.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /Users/alexey/TaskManager/hellopage.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/alexey/TaskManager/signinwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /Users/alexey/TaskManager/taskmanager.h \
+  /opt/homebrew/include/QtSql/QSqlDatabase \
+  /opt/homebrew/include/QtSql/qsqldatabase.h \
+  /opt/homebrew/include/QtSql/qtsqlglobal.h \
+  /opt/homebrew/include/QtSql/qtsql-config.h \
+  /opt/homebrew/include/QtSql/qtsqlexports.h \
+  /opt/homebrew/include/QtCore/qmetaobject.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlQuery \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqlerror.h \
+  /Users/alexey/TaskManager/adminpage.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlTableModel \
+  /opt/homebrew/lib/QtSql.framework/Headers/qsqltablemodel.h \
+  /opt/homebrew/include/QtSql/qsqlquerymodel.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /Users/alexey/TaskManager/admin.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/include/./ui_mainwindow.h \
   /opt/homebrew/include/QtCore/QVariant \
   /opt/homebrew/include/QtWidgets/QApplication \
@@ -1142,6 +1170,10 @@ CMakeFiles/TaskManager.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtWidgets/QMenuBar \
   /opt/homebrew/include/QtWidgets/qmenubar.h \
   /opt/homebrew/include/QtWidgets/qmenu.h \
-  /opt/homebrew/include/QtWidgets/QStatusBar \
-  /opt/homebrew/include/QtWidgets/qstatusbar.h \
+  /opt/homebrew/include/QtWidgets/QStackedWidget \
+  /opt/homebrew/include/QtWidgets/QVBoxLayout \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/QWidget

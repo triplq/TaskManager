@@ -382,9 +382,27 @@
 			null
 		],
 		[
+			"/Users/alexey/TaskManager/adminpage.h",
+			"MU",
+			"EWIEGA46WW/moc_adminpage.cpp",
+			null
+		],
+		[
+			"/Users/alexey/TaskManager/hellopage.h",
+			"MU",
+			"EWIEGA46WW/moc_hellopage.cpp",
+			null
+		],
+		[
 			"/Users/alexey/TaskManager/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/alexey/TaskManager/signinwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_signinwindow.cpp",
 			null
 		],
 		[
@@ -429,8 +447,10 @@
 		"/opt/homebrew/lib/QtGui.framework",
 		"/opt/homebrew/lib/QtSql.framework/Headers",
 		"/opt/homebrew/lib/QtSql.framework",
-		"/usr/include",
-		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include"
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -466,8 +486,11 @@
 	"SOURCES" : 
 	[
 		[ "/Users/alexey/TaskManager/admin.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/adminpage.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/hellopage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/main.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/mainwindow.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/signinwindow.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/task.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/taskmanager.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/user.cpp", "MU", null ]
