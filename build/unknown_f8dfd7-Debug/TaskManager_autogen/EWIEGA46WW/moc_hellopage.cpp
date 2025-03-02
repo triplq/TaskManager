@@ -38,7 +38,7 @@ struct qt_meta_tag_ZN9HelloPageE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN9HelloPageE = QtMocHelpers::stringData(
     "HelloPage",
-    "SigninWindowClicked",
+    "SigninPageClicked",
     ""
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -76,7 +76,7 @@ Q_CONSTINIT const QMetaObject HelloPage::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN9HelloPageE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<HelloPage, std::true_type>,
-        // method 'SigninWindowClicked'
+        // method 'SigninPageClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -87,7 +87,7 @@ void HelloPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     auto *_t = static_cast<HelloPage *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->SigninWindowClicked(); break;
+        case 0: _t->SigninPageClicked(); break;
         default: ;
         }
     }
@@ -95,7 +95,7 @@ void HelloPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _q_method_type = void (HelloPage::*)();
-            if (_q_method_type _q_method = &HelloPage::SigninWindowClicked; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            if (_q_method_type _q_method = &HelloPage::SigninPageClicked; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -135,7 +135,7 @@ int HelloPage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void HelloPage::SigninWindowClicked()
+void HelloPage::SigninPageClicked()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }

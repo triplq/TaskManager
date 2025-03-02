@@ -2,15 +2,15 @@
 #define ADMIN_H
 
 #include "taskmanager.h"
+#include "QMessageBox"
 
 class Admin
 {
+private:
+    QWidget *parent;
 public:
-    void addTask(const std::string& description);
-    void deleteTask(const std::string &description);
-    void editTask(int id, const std::string& new_descrip);
-    void completeTask(int id);
-    void setIncompleteTask(int id);
+    Admin(QWidget *parent);
+    void addTask(const int& id, const std::string& description, const bool& status);
 };
 
 #endif // ADMIN_H

@@ -1,80 +1,34 @@
 #include "admin.h"
 
-void Admin::addTask(const std::string &description)
+Admin::Admin(QWidget *parent) : parent(parent) { };
+
+void Admin::addTask(const int& id, const std::string& description, const bool& status)
 {
     QSqlDatabase db = QSqlDatabase::database("task_db");
     QSqlQuery query(db);
 
-    query.prepare("INSERT INTO tasks(description) "
-                  "VALUES(:desc)");
+    query.prepare("INSERT INTO tasks(user_id, description, complete) "
+                  "VALUES(:id, :desc, :complete)");
+
+    query.bindValue(":id", id);
     query.bindValue(":desc", QString::fromStdString(description));
+    query.bindValue(":complete", status);
 
     if(!query.exec())
-        qDebug() << query.lastError().text();
-    else
-        qDebug() << "Add is success";
+        QMessageBox::warning(this->parent, "Warning", query.lastError().text(), QMessageBox::Cancel);
 }
 
-void Admin::deleteTask(const std::string &description)
-{
-    QSqlDatabase db = QSqlDatabase::database("task_db");
-    QSqlQuery query(db);
+// void Admin::deleteTask(int& id, const std::string& description)
+// {
+//     QSqlDatabase db = QSqlDatabase::database("task_db");
+//     QSqlQuery query(db);
 
-    query.prepare("DELETE FROM tasks "
-                  "WHERE description = :desc");
-    query.bindValue(":desc", QString::fromStdString(description));
+//     query.prepare("DELETE FROM tasks "
+//                   "WHERE user_id = :id AND description = :desc");
 
-    if(!query.exec())
-        qDebug() << query.lastError().text();
-    else
-        qDebug() << "Deleting is success";
-}
+//     query.bindValue(":id", id);
+//     query.bindValue(":desc", QString::fromStdString(description));
 
-void Admin::editTask(int id, const std::string &new_descrip)
-{
-    QSqlDatabase db = QSqlDatabase::database("task_db");
-    QSqlQuery query(db);
-
-    query.prepare("UPDATE tasks "
-                  "SET description = :desc "
-                  "WHERE id = :id");
-    query.bindValue(":desc", QString::fromStdString(new_descrip));
-    query.bindValue(":id", id);
-
-    if(!query.exec())
-        qDebug() << query.lastError().text();
-    else
-        qDebug() << "Successfully completed";
-}
-
-void Admin::completeTask(int id)
-{
-    QSqlDatabase db = QSqlDatabase::database("task_db");
-    QSqlQuery query(db);
-
-    query.prepare("UPDATE tasks "
-                  "SET complete = TRUE "
-                  "WHERE id = :id");
-    query.bindValue(":id", id);
-
-    if(!query.exec())
-        qDebug() << query.lastError().text();
-    else
-        qDebug() << "Completing success";
-}
-
-void Admin::setIncompleteTask(int id)
-{
-    QSqlDatabase db = QSqlDatabase::database("task_db");
-    QSqlQuery query(db);
-
-    query.prepare("UPDATE tasks "
-                  "SET complete = FALSE "
-                  "WHERE id = :id");
-    query.bindValue(":id", id);
-
-    if(!query.exec())
-        qDebug() << query.lastError().text();
-    else
-        qDebug() << "Incompleting success";
-}
+//     if(!query.exec())
+//         QMessageBox::warning(this->parent, "Warning", query.lastError().text(), QMessageBox::Cancel);
+// }

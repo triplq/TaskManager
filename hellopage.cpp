@@ -7,7 +7,7 @@ HelloPage::HelloPage(QWidget *parent)
 {
     ui->setupUi(this);
 
-    connect(ui->signinButton, &QPushButton::clicked, this, &HelloPage::SigninWindowClicked);
+    connect(ui->signinButton, &QPushButton::clicked, this, &HelloPage::SigninPageClicked);
 }
 
 HelloPage::~HelloPage()

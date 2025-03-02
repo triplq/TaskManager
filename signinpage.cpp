@@ -1,21 +1,16 @@
-#include "signinwindow.h"
-#include "ui_signinwindow.h"
+#include "signinpage.h"
+#include "ui_signinpage.h"
 
-SigninWindow::SigninWindow(QWidget *parent)
+SigninPage::SigninPage(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::SigninWindow)
+    , ui(new Ui::SigninPage)
 {
     ui->setupUi(this);
 
-    connect(ui->backButton, &QPushButton::clicked, this, &SigninWindow::backClicked);
+    connect(ui->backButton, &QPushButton::clicked, this, &SigninPage::backClicked);
 }
 
-SigninWindow::~SigninWindow()
-{
-    delete ui;
-}
-
-void SigninWindow::on_okButton_clicked()
+void SigninPage::on_okButton_clicked()
 {
     TaskManager base;
 
@@ -33,7 +28,12 @@ void SigninWindow::on_okButton_clicked()
 
     else
     {
-
+        emit userConnect(name);
     }
 }
 
+
+SigninPage::~SigninPage()
+{
+    delete ui;
+}

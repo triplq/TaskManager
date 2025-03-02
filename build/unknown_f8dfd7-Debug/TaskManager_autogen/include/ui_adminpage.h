@@ -15,96 +15,68 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTableView>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
-class Ui_adminpage
+class Ui_AdminPage
 {
 public:
-    QWidget *layoutWidget;
+    QWidget *widget;
     QHBoxLayout *horizontalLayout;
     QTableView *tasksView;
     QTableView *usersView;
-    QVBoxLayout *verticalLayout;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_5;
+    QPushButton *addTaskButton;
 
-    void setupUi(QWidget *adminpage)
+    void setupUi(QWidget *AdminPage)
     {
-        if (adminpage->objectName().isEmpty())
-            adminpage->setObjectName("adminpage");
-        adminpage->resize(800, 600);
-        layoutWidget = new QWidget(adminpage);
-        layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(5, 11, 771, 561));
-        horizontalLayout = new QHBoxLayout(layoutWidget);
+        if (AdminPage->objectName().isEmpty())
+            AdminPage->setObjectName("AdminPage");
+        AdminPage->resize(800, 600);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(AdminPage->sizePolicy().hasHeightForWidth());
+        AdminPage->setSizePolicy(sizePolicy);
+        AdminPage->setMinimumSize(QSize(800, 600));
+        AdminPage->setMaximumSize(QSize(800, 600));
+        widget = new QWidget(AdminPage);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(-3, 3, 781, 581));
+        horizontalLayout = new QHBoxLayout(widget);
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        tasksView = new QTableView(layoutWidget);
+        tasksView = new QTableView(widget);
         tasksView->setObjectName("tasksView");
 
         horizontalLayout->addWidget(tasksView);
 
-        usersView = new QTableView(layoutWidget);
+        usersView = new QTableView(widget);
         usersView->setObjectName("usersView");
 
         horizontalLayout->addWidget(usersView);
 
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName("verticalLayout");
-        pushButton = new QPushButton(layoutWidget);
-        pushButton->setObjectName("pushButton");
+        addTaskButton = new QPushButton(widget);
+        addTaskButton->setObjectName("addTaskButton");
 
-        verticalLayout->addWidget(pushButton);
-
-        pushButton_2 = new QPushButton(layoutWidget);
-        pushButton_2->setObjectName("pushButton_2");
-
-        verticalLayout->addWidget(pushButton_2);
-
-        pushButton_3 = new QPushButton(layoutWidget);
-        pushButton_3->setObjectName("pushButton_3");
-
-        verticalLayout->addWidget(pushButton_3);
-
-        pushButton_4 = new QPushButton(layoutWidget);
-        pushButton_4->setObjectName("pushButton_4");
-
-        verticalLayout->addWidget(pushButton_4);
-
-        pushButton_5 = new QPushButton(layoutWidget);
-        pushButton_5->setObjectName("pushButton_5");
-
-        verticalLayout->addWidget(pushButton_5);
+        horizontalLayout->addWidget(addTaskButton);
 
 
-        horizontalLayout->addLayout(verticalLayout);
+        retranslateUi(AdminPage);
 
-
-        retranslateUi(adminpage);
-
-        QMetaObject::connectSlotsByName(adminpage);
+        QMetaObject::connectSlotsByName(AdminPage);
     } // setupUi
 
-    void retranslateUi(QWidget *adminpage)
+    void retranslateUi(QWidget *AdminPage)
     {
-        adminpage->setWindowTitle(QCoreApplication::translate("adminpage", "Form", nullptr));
-        pushButton->setText(QCoreApplication::translate("adminpage", "PushButton", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("adminpage", "PushButton", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("adminpage", "PushButton", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("adminpage", "PushButton", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("adminpage", "PushButton", nullptr));
+        AdminPage->setWindowTitle(QCoreApplication::translate("AdminPage", "Form", nullptr));
+        addTaskButton->setText(QCoreApplication::translate("AdminPage", "Add Task", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class adminpage: public Ui_adminpage {};
+    class AdminPage: public Ui_AdminPage {};
 } // namespace Ui
 
 QT_END_NAMESPACE

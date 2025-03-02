@@ -1128,7 +1128,7 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /Users/alexey/TaskManager/hellopage.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /Users/alexey/TaskManager/signinwindow.h \
+  /Users/alexey/TaskManager/signinpage.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
@@ -1149,7 +1149,29 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqltablemodel.h \
   /opt/homebrew/include/QtSql/qsqlquerymodel.h \
   /opt/homebrew/include/QtCore/qabstractitemmodel.h \
-  /Users/alexey/TaskManager/admin.h /Users/alexey/TaskManager/task.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableView \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtableview.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h \
+  /Users/alexey/TaskManager/admin.h \
+  /Users/alexey/TaskManager/taskworkdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/alexey/TaskManager/userpage.h /Users/alexey/TaskManager/task.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/include/QtCore/qcoreapplication.h \
@@ -1161,5 +1183,4 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
   /opt/homebrew/include/QtGui/qguiapplication.h \
   /opt/homebrew/include/QtGui/qinputmethod.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtGui/qguiapplication_platform.h

@@ -400,9 +400,9 @@
 			null
 		],
 		[
-			"/Users/alexey/TaskManager/signinwindow.h",
+			"/Users/alexey/TaskManager/signinpage.h",
 			"MU",
-			"EWIEGA46WW/moc_signinwindow.cpp",
+			"EWIEGA46WW/moc_signinpage.cpp",
 			null
 		],
 		[
@@ -418,9 +418,21 @@
 			null
 		],
 		[
+			"/Users/alexey/TaskManager/taskworkdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_taskworkdialog.cpp",
+			null
+		],
+		[
 			"/Users/alexey/TaskManager/user.h",
 			"MU",
 			"EWIEGA46WW/moc_user.cpp",
+			null
+		],
+		[
+			"/Users/alexey/TaskManager/userpage.h",
+			"MU",
+			"EWIEGA46WW/moc_userpage.cpp",
 			null
 		]
 	],
@@ -490,10 +502,12 @@
 		[ "/Users/alexey/TaskManager/hellopage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/main.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/mainwindow.cpp", "MU", null ],
-		[ "/Users/alexey/TaskManager/signinwindow.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/signinpage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/task.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/taskmanager.cpp", "MU", null ],
-		[ "/Users/alexey/TaskManager/user.cpp", "MU", null ]
+		[ "/Users/alexey/TaskManager/taskworkdialog.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/user.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/userpage.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

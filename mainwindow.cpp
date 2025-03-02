@@ -21,22 +21,30 @@ void MainWindow::showHelloPage()
     ui->stackedWidget->addWidget(helloPage);
     ui->stackedWidget->setCurrentWidget(helloPage);
 
-    connect(helloPage, &HelloPage::SigninWindowClicked, this, &MainWindow::showSigninWindow);
+    connect(helloPage, &HelloPage::SigninPageClicked, this, &MainWindow::showSigninPage);
 }
 
-void MainWindow::showSigninWindow()
+void MainWindow::showSigninPage()
 {
-    SigninWindow *signinWindow = new SigninWindow();
-    ui->stackedWidget->addWidget(signinWindow);
-    ui->stackedWidget->setCurrentWidget(signinWindow);
+    SigninPage *signinPage = new SigninPage();
+    ui->stackedWidget->addWidget(signinPage);
+    ui->stackedWidget->setCurrentWidget(signinPage);
 
-    connect(signinWindow, &SigninWindow::backClicked, this, &MainWindow::showHelloPage);
-    connect(signinWindow, &SigninWindow::adminConnect, this, &MainWindow::showAdminPage);
+    connect(signinPage, &SigninPage::backClicked, this, &MainWindow::showHelloPage);
+    connect(signinPage, &SigninPage::adminConnect, this, &MainWindow::showAdminPage);
+    connect(signinPage, &SigninPage::userConnect, this, &MainWindow::showUserPage);
 }
 
 void MainWindow::showAdminPage()
 {
-    adminpage *adminPage = new adminpage();
+    AdminPage *adminPage = new AdminPage();
     ui->stackedWidget->addWidget(adminPage);
     ui->stackedWidget->setCurrentWidget(adminPage);
+}
+
+void MainWindow::showUserPage(const QString& user)
+{
+    UserPage *userPage = new UserPage(this, user);
+    ui->stackedWidget->addWidget(userPage);
+    ui->stackedWidget->setCurrentWidget(userPage);
 }

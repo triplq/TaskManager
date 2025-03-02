@@ -16,7 +16,7 @@ public:
     ~HelloPage();
 
 signals:
-    void SigninWindowClicked();
+    void SigninPageClicked();
 
 private:
     Ui::HelloPage *ui;

@@ -191,19 +191,19 @@ CMakeFiles/TaskManager.dir/hellopage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/hellopage.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/hellopage.cpp -o CMakeFiles/TaskManager.dir/hellopage.cpp.s
 
-CMakeFiles/TaskManager.dir/signinwindow.cpp.o: CMakeFiles/TaskManager.dir/flags.make
-CMakeFiles/TaskManager.dir/signinwindow.cpp.o: /Users/alexey/TaskManager/signinwindow.cpp
-CMakeFiles/TaskManager.dir/signinwindow.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TaskManager.dir/signinwindow.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/signinwindow.cpp.o -MF CMakeFiles/TaskManager.dir/signinwindow.cpp.o.d -o CMakeFiles/TaskManager.dir/signinwindow.cpp.o -c /Users/alexey/TaskManager/signinwindow.cpp
+CMakeFiles/TaskManager.dir/signinpage.cpp.o: CMakeFiles/TaskManager.dir/flags.make
+CMakeFiles/TaskManager.dir/signinpage.cpp.o: /Users/alexey/TaskManager/signinpage.cpp
+CMakeFiles/TaskManager.dir/signinpage.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TaskManager.dir/signinpage.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/signinpage.cpp.o -MF CMakeFiles/TaskManager.dir/signinpage.cpp.o.d -o CMakeFiles/TaskManager.dir/signinpage.cpp.o -c /Users/alexey/TaskManager/signinpage.cpp
 
-CMakeFiles/TaskManager.dir/signinwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/signinwindow.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexey/TaskManager/signinwindow.cpp > CMakeFiles/TaskManager.dir/signinwindow.cpp.i
+CMakeFiles/TaskManager.dir/signinpage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/signinpage.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexey/TaskManager/signinpage.cpp > CMakeFiles/TaskManager.dir/signinpage.cpp.i
 
-CMakeFiles/TaskManager.dir/signinwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/signinwindow.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/signinwindow.cpp -o CMakeFiles/TaskManager.dir/signinwindow.cpp.s
+CMakeFiles/TaskManager.dir/signinpage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/signinpage.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/signinpage.cpp -o CMakeFiles/TaskManager.dir/signinpage.cpp.s
 
 CMakeFiles/TaskManager.dir/adminpage.cpp.o: CMakeFiles/TaskManager.dir/flags.make
 CMakeFiles/TaskManager.dir/adminpage.cpp.o: /Users/alexey/TaskManager/adminpage.cpp
@@ -219,6 +219,34 @@ CMakeFiles/TaskManager.dir/adminpage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/adminpage.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/adminpage.cpp -o CMakeFiles/TaskManager.dir/adminpage.cpp.s
 
+CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o: CMakeFiles/TaskManager.dir/flags.make
+CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o: /Users/alexey/TaskManager/taskworkdialog.cpp
+CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o -MF CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o.d -o CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o -c /Users/alexey/TaskManager/taskworkdialog.cpp
+
+CMakeFiles/TaskManager.dir/taskworkdialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/taskworkdialog.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexey/TaskManager/taskworkdialog.cpp > CMakeFiles/TaskManager.dir/taskworkdialog.cpp.i
+
+CMakeFiles/TaskManager.dir/taskworkdialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/taskworkdialog.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/taskworkdialog.cpp -o CMakeFiles/TaskManager.dir/taskworkdialog.cpp.s
+
+CMakeFiles/TaskManager.dir/userpage.cpp.o: CMakeFiles/TaskManager.dir/flags.make
+CMakeFiles/TaskManager.dir/userpage.cpp.o: /Users/alexey/TaskManager/userpage.cpp
+CMakeFiles/TaskManager.dir/userpage.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TaskManager.dir/userpage.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/userpage.cpp.o -MF CMakeFiles/TaskManager.dir/userpage.cpp.o.d -o CMakeFiles/TaskManager.dir/userpage.cpp.o -c /Users/alexey/TaskManager/userpage.cpp
+
+CMakeFiles/TaskManager.dir/userpage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/userpage.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexey/TaskManager/userpage.cpp > CMakeFiles/TaskManager.dir/userpage.cpp.i
+
+CMakeFiles/TaskManager.dir/userpage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/userpage.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/TaskManager/userpage.cpp -o CMakeFiles/TaskManager.dir/userpage.cpp.s
+
 # Object files for target TaskManager
 TaskManager_OBJECTS = \
 "CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o" \
@@ -229,8 +257,10 @@ TaskManager_OBJECTS = \
 "CMakeFiles/TaskManager.dir/user.cpp.o" \
 "CMakeFiles/TaskManager.dir/admin.cpp.o" \
 "CMakeFiles/TaskManager.dir/hellopage.cpp.o" \
-"CMakeFiles/TaskManager.dir/signinwindow.cpp.o" \
-"CMakeFiles/TaskManager.dir/adminpage.cpp.o"
+"CMakeFiles/TaskManager.dir/signinpage.cpp.o" \
+"CMakeFiles/TaskManager.dir/adminpage.cpp.o" \
+"CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o" \
+"CMakeFiles/TaskManager.dir/userpage.cpp.o"
 
 # External object files for target TaskManager
 TaskManager_EXTERNAL_OBJECTS =
@@ -243,15 +273,17 @@ TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/taskmanag
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/user.cpp.o
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/admin.cpp.o
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/hellopage.cpp.o
-TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/signinwindow.cpp.o
+TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/signinpage.cpp.o
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/adminpage.cpp.o
+TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o
+TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/userpage.cpp.o
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/build.make
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtSql.framework/Versions/A/QtSql
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable TaskManager.app/Contents/MacOS/TaskManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable TaskManager.app/Contents/MacOS/TaskManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TaskManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

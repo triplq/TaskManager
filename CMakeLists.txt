@@ -32,14 +32,10 @@ qt_add_executable(TaskManager
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
     hellopage.h hellopage.cpp hellopage.ui
-    signinwindow.h signinwindow.cpp signinwindow.ui
+    signinpage.h signinpage.cpp signinpage.ui
     adminpage.h adminpage.cpp adminpage.ui
-
-
-
-
-
-
+    taskworkdialog.h taskworkdialog.cpp taskworkdialog.ui
+    userpage.h userpage.cpp userpage.ui
 
 
 

@@ -347,29 +347,29 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
-signinwindow.o: signinwindow.cpp.o
-.PHONY : signinwindow.o
+signinpage.o: signinpage.cpp.o
+.PHONY : signinpage.o
 
 # target to build an object file
-signinwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.o
-.PHONY : signinwindow.cpp.o
+signinpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinpage.cpp.o
+.PHONY : signinpage.cpp.o
 
-signinwindow.i: signinwindow.cpp.i
-.PHONY : signinwindow.i
+signinpage.i: signinpage.cpp.i
+.PHONY : signinpage.i
 
 # target to preprocess a source file
-signinwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.i
-.PHONY : signinwindow.cpp.i
+signinpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinpage.cpp.i
+.PHONY : signinpage.cpp.i
 
-signinwindow.s: signinwindow.cpp.s
-.PHONY : signinwindow.s
+signinpage.s: signinpage.cpp.s
+.PHONY : signinpage.s
 
 # target to generate assembly for a file
-signinwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinwindow.cpp.s
-.PHONY : signinwindow.cpp.s
+signinpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinpage.cpp.s
+.PHONY : signinpage.cpp.s
 
 task.o: task.cpp.o
 .PHONY : task.o
@@ -419,6 +419,30 @@ taskmanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/taskmanager.cpp.s
 .PHONY : taskmanager.cpp.s
 
+taskworkdialog.o: taskworkdialog.cpp.o
+.PHONY : taskworkdialog.o
+
+# target to build an object file
+taskworkdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o
+.PHONY : taskworkdialog.cpp.o
+
+taskworkdialog.i: taskworkdialog.cpp.i
+.PHONY : taskworkdialog.i
+
+# target to preprocess a source file
+taskworkdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/taskworkdialog.cpp.i
+.PHONY : taskworkdialog.cpp.i
+
+taskworkdialog.s: taskworkdialog.cpp.s
+.PHONY : taskworkdialog.s
+
+# target to generate assembly for a file
+taskworkdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/taskworkdialog.cpp.s
+.PHONY : taskworkdialog.cpp.s
+
 user.o: user.cpp.o
 .PHONY : user.o
 
@@ -442,6 +466,30 @@ user.s: user.cpp.s
 user.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/user.cpp.s
 .PHONY : user.cpp.s
+
+userpage.o: userpage.cpp.o
+.PHONY : userpage.o
+
+# target to build an object file
+userpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/userpage.cpp.o
+.PHONY : userpage.cpp.o
+
+userpage.i: userpage.cpp.i
+.PHONY : userpage.i
+
+# target to preprocess a source file
+userpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/userpage.cpp.i
+.PHONY : userpage.cpp.i
+
+userpage.s: userpage.cpp.s
+.PHONY : userpage.s
+
+# target to generate assembly for a file
+userpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/userpage.cpp.s
+.PHONY : userpage.cpp.s
 
 # Help Target
 help:
@@ -476,18 +524,24 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
-	@echo "... signinwindow.o"
-	@echo "... signinwindow.i"
-	@echo "... signinwindow.s"
+	@echo "... signinpage.o"
+	@echo "... signinpage.i"
+	@echo "... signinpage.s"
 	@echo "... task.o"
 	@echo "... task.i"
 	@echo "... task.s"
 	@echo "... taskmanager.o"
 	@echo "... taskmanager.i"
 	@echo "... taskmanager.s"
+	@echo "... taskworkdialog.o"
+	@echo "... taskworkdialog.i"
+	@echo "... taskworkdialog.s"
 	@echo "... user.o"
 	@echo "... user.i"
 	@echo "... user.s"
+	@echo "... userpage.o"
+	@echo "... userpage.i"
+	@echo "... userpage.s"
 .PHONY : help
 
 

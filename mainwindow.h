@@ -4,8 +4,9 @@
 #include <QMainWindow>
 #include <QStackedWidget>
 #include "hellopage.h"
-#include "signinwindow.h"
+#include "signinpage.h"
 #include "adminpage.h"
+#include "userpage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,7 +25,8 @@ public:
 private:
     Ui::MainWindow *ui;
     void showHelloPage();
-    void showSigninWindow();
+    void showSigninPage();
     void showAdminPage();
+    void showUserPage(const QString& user);
 };
 #endif // MAINWINDOW_H

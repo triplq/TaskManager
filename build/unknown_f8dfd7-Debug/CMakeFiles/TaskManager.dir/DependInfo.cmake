@@ -15,10 +15,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/alexey/TaskManager/hellopage.cpp" "CMakeFiles/TaskManager.dir/hellopage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/hellopage.cpp.o.d"
   "/Users/alexey/TaskManager/main.cpp" "CMakeFiles/TaskManager.dir/main.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/main.cpp.o.d"
   "/Users/alexey/TaskManager/mainwindow.cpp" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o.d"
-  "/Users/alexey/TaskManager/signinwindow.cpp" "CMakeFiles/TaskManager.dir/signinwindow.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/signinwindow.cpp.o.d"
+  "/Users/alexey/TaskManager/signinpage.cpp" "CMakeFiles/TaskManager.dir/signinpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/signinpage.cpp.o.d"
   "/Users/alexey/TaskManager/task.cpp" "CMakeFiles/TaskManager.dir/task.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/task.cpp.o.d"
   "/Users/alexey/TaskManager/taskmanager.cpp" "CMakeFiles/TaskManager.dir/taskmanager.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/taskmanager.cpp.o.d"
+  "/Users/alexey/TaskManager/taskworkdialog.cpp" "CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o.d"
   "/Users/alexey/TaskManager/user.cpp" "CMakeFiles/TaskManager.dir/user.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/user.cpp.o.d"
+  "/Users/alexey/TaskManager/userpage.cpp" "CMakeFiles/TaskManager.dir/userpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/userpage.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

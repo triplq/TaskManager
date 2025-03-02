@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>SigninWindow</class>
- <widget class="QWidget" name="SigninWindow">
+ <class>SigninPage</class>
+ <widget class="QWidget" name="SigninPage">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -34,25 +34,17 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>120</y>
-     <width>260</width>
-     <height>139</height>
+     <x>200</x>
+     <y>128</y>
+     <width>216</width>
+     <height>131</height>
     </rect>
    </property>
-   <layout class="QGridLayout" name="gridLayout_3">
+   <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0" colspan="3">
      <widget class="QLabel" name="label">
-      <property name="font">
-       <font>
-        <pointsize>30</pointsize>
-       </font>
-      </property>
       <property name="text">
        <string>Войдите в аккаунт</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -74,11 +66,7 @@
      </widget>
     </item>
     <item row="2" column="1" colspan="2">
-     <widget class="QLineEdit" name="passwordEdit">
-      <property name="frame">
-       <bool>true</bool>
-      </property>
-     </widget>
+     <widget class="QLineEdit" name="passwordEdit"/>
     </item>
     <item row="3" column="0" colspan="2">
      <widget class="QPushButton" name="okButton">

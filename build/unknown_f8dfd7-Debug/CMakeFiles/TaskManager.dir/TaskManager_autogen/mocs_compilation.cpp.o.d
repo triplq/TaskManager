@@ -1131,6 +1131,27 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qmetaobject.h \
   /opt/homebrew/include/QtSql/qsqlquerymodel.h \
   /opt/homebrew/include/QtCore/qabstractitemmodel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableView \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtableview.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../admin.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../taskmanager.h \
   /opt/homebrew/include/QtSql/QSqlDatabase \
@@ -1138,6 +1159,13 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlerror.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../taskworkdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_hellopage.cpp \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../hellopage.h \
@@ -1145,14 +1173,10 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../mainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/include/QtWidgets/qwidget.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
-  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../signinwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
-  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
-  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_signinwindow.cpp
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../signinpage.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../userpage.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_signinpage.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_taskworkdialog.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_userpage.cpp
