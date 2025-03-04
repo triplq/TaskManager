@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QSqlTableModel>
 #include <QSqlQuery>
+#include "completedtaskspage.h"
 
 namespace Ui {
 class UserPage;
@@ -20,9 +21,15 @@ public:
     explicit UserPage(QWidget *parent = nullptr, const QString& user = "0");
     ~UserPage();
 
+private slots:
+    void on_doneButton_clicked();
+
+    void on_showButton_clicked();
+
 private:
     Ui::UserPage *ui;
     QSqlTableModel *tasksModel;
+    CompletedTasksPage *completedTasksPage;
 };
 
 #endif // USERPAGE_H

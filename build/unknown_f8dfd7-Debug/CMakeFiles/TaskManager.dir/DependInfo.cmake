@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/mocs_compilation.cpp" "CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o.d"
   "/Users/alexey/TaskManager/admin.cpp" "CMakeFiles/TaskManager.dir/admin.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/admin.cpp.o.d"
   "/Users/alexey/TaskManager/adminpage.cpp" "CMakeFiles/TaskManager.dir/adminpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/adminpage.cpp.o.d"
+  "/Users/alexey/TaskManager/completedtaskspage.cpp" "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o.d"
   "/Users/alexey/TaskManager/hellopage.cpp" "CMakeFiles/TaskManager.dir/hellopage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/hellopage.cpp.o.d"
   "/Users/alexey/TaskManager/main.cpp" "CMakeFiles/TaskManager.dir/main.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/main.cpp.o.d"
   "/Users/alexey/TaskManager/mainwindow.cpp" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o.d"

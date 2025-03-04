@@ -11,8 +11,12 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTableView>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -20,7 +24,13 @@ QT_BEGIN_NAMESPACE
 class Ui_UserPage
 {
 public:
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout;
     QTableView *tasksView;
+    QVBoxLayout *verticalLayout;
+    QPushButton *doneButton;
+    QPushButton *showButton;
+    QSpacerItem *verticalSpacer;
 
     void setupUi(QWidget *UserPage)
     {
@@ -29,11 +39,42 @@ public:
         UserPage->resize(800, 600);
         UserPage->setMinimumSize(QSize(800, 600));
         UserPage->setMaximumSize(QSize(800, 600));
-        tasksView = new QTableView(UserPage);
+        widget = new QWidget(UserPage);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(1, 4, 771, 591));
+        horizontalLayout = new QHBoxLayout(widget);
+        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        tasksView = new QTableView(widget);
         tasksView->setObjectName("tasksView");
-        tasksView->setGeometry(QRect(0, 10, 781, 571));
+
+        horizontalLayout->addWidget(tasksView);
+
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName("verticalLayout");
+        doneButton = new QPushButton(widget);
+        doneButton->setObjectName("doneButton");
+        doneButton->setMaximumSize(QSize(400, 16777215));
+
+        verticalLayout->addWidget(doneButton);
+
+        showButton = new QPushButton(widget);
+        showButton->setObjectName("showButton");
+
+        verticalLayout->addWidget(showButton);
+
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer);
+
+
+        horizontalLayout->addLayout(verticalLayout);
+
 
         retranslateUi(UserPage);
+
+        doneButton->setDefault(true);
+
 
         QMetaObject::connectSlotsByName(UserPage);
     } // setupUi
@@ -41,6 +82,8 @@ public:
     void retranslateUi(QWidget *UserPage)
     {
         UserPage->setWindowTitle(QCoreApplication::translate("UserPage", "Form", nullptr));
+        doneButton->setText(QCoreApplication::translate("UserPage", "Done", nullptr));
+        showButton->setText(QCoreApplication::translate("UserPage", "Show", nullptr));
     } // retranslateUi
 
 };

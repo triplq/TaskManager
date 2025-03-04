@@ -21,19 +21,36 @@ UserPage::UserPage(QWidget *parent, const QString& user)
     query.next();
 
     user_id = query.value(0).toUInt();
-
-    qDebug() << user;
-    qDebug() << user_id;
-
-    QString filter = QString("user_id = '%1'").arg(user_id);
+    QString filter = QString("user_id = '%1' and complete = false").arg(user_id);
 
     tasksModel->setFilter(filter);
     tasksModel->select();
     ui->tasksView->setModel(tasksModel);
-    ui->tasksView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tasksView->setEditTriggers(QTableView::NoEditTriggers);
+    tasksModel->setEditStrategy(QSqlTableModel::OnManualSubmit);
 }
 
 UserPage::~UserPage()
 {
     delete ui;
 }
+
+void UserPage::on_doneButton_clicked()
+{
+    QModelIndex index = ui->tasksView->currentIndex();
+
+    if(!index.isValid())
+        return;
+
+    tasksModel->setData(index, true);
+    tasksModel->submitAll();
+    tasksModel->select();
+}
+
+
+void UserPage::on_showButton_clicked()
+{
+    completedTasksPage = new CompletedTasksPage(this, user_id);
+    completedTasksPage->show();
+}
+

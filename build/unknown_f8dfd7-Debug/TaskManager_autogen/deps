@@ -930,6 +930,8 @@ TaskManager_autogen/timestamp: \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeCXXCompiler.cmake \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeSystem.cmake \
 	/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/moc_predefs.h \
+	/Users/alexey/TaskManager/completedtaskspage.cpp \
+	/Users/alexey/TaskManager/completedtaskspage.h \
 	/Users/alexey/TaskManager/hellopage.cpp \
 	/Users/alexey/TaskManager/hellopage.h \
 	/Users/alexey/TaskManager/main.cpp \
@@ -1072,6 +1074,7 @@ TaskManager_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/QShortcut \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -1091,6 +1094,7 @@ TaskManager_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qregion.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qshortcut.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -1375,6 +1379,7 @@ TaskManager_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	/Users/alexey/TaskManager/adminpage.ui \
+	/Users/alexey/TaskManager/completedtaskspage.ui \
 	/Users/alexey/TaskManager/hellopage.ui \
 	/Users/alexey/TaskManager/mainwindow.ui \
 	/Users/alexey/TaskManager/signinpage.ui \

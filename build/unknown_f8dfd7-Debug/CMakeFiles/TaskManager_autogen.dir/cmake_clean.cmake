@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TaskManager_autogen"
   "TaskManager_autogen/include/ui_adminpage.h"
+  "TaskManager_autogen/include/ui_completedtaskspage.h"
   "TaskManager_autogen/include/ui_hellopage.h"
   "TaskManager_autogen/include/ui_mainwindow.h"
   "TaskManager_autogen/include/ui_signinpage.h"

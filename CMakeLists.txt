@@ -36,9 +36,7 @@ qt_add_executable(TaskManager
     adminpage.h adminpage.cpp adminpage.ui
     taskworkdialog.h taskworkdialog.cpp taskworkdialog.ui
     userpage.h userpage.cpp userpage.ui
-
-
-
+    completedtaskspage.h completedtaskspage.cpp completedtaskspage.ui
 )
 
 target_link_libraries(TaskManager PRIVATE Qt6::Widgets Qt6::Sql Qt6::Core)

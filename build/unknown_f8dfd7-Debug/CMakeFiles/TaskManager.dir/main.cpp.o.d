@@ -1171,7 +1171,11 @@ CMakeFiles/TaskManager.dir/main.cpp.o: /Users/alexey/TaskManager/main.cpp \
   /Users/alexey/TaskManager/taskworkdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
-  /Users/alexey/TaskManager/userpage.h /Users/alexey/TaskManager/task.h \
+  /Users/alexey/TaskManager/userpage.h \
+  /Users/alexey/TaskManager/completedtaskspage.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QShortcut \
+  /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h \
+  /Users/alexey/TaskManager/task.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/include/QtCore/qcoreapplication.h \

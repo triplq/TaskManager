@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TaskManager.dir/admin.cpp.o.d"
   "CMakeFiles/TaskManager.dir/adminpage.cpp.o"
   "CMakeFiles/TaskManager.dir/adminpage.cpp.o.d"
+  "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o"
+  "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o.d"
   "CMakeFiles/TaskManager.dir/hellopage.cpp.o"
   "CMakeFiles/TaskManager.dir/hellopage.cpp.o.d"
   "CMakeFiles/TaskManager.dir/main.cpp.o"

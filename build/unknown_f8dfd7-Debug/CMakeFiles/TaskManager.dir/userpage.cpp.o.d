@@ -1132,6 +1132,9 @@ CMakeFiles/TaskManager.dir/userpage.cpp.o: \
   /opt/homebrew/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlQuery \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
+  /Users/alexey/TaskManager/completedtaskspage.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QShortcut \
+  /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/include/ui_userpage.h \
   /opt/homebrew/include/QtCore/QVariant \
   /opt/homebrew/include/QtWidgets/QApplication \
@@ -1147,6 +1150,11 @@ CMakeFiles/TaskManager.dir/userpage.cpp.o: \
   /opt/homebrew/include/QtGui/qinputmethod.h \
   /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtGui/qguiapplication_platform.h \
+  /opt/homebrew/include/QtWidgets/QHBoxLayout \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/QHeaderView \
   /opt/homebrew/include/QtWidgets/qheaderview.h \
   /opt/homebrew/include/QtWidgets/qabstractitemview.h \
@@ -1165,6 +1173,11 @@ CMakeFiles/TaskManager.dir/userpage.cpp.o: \
   /opt/homebrew/include/QtWidgets/qtabbar.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/include/QtWidgets/QPushButton \
+  /opt/homebrew/include/QtWidgets/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/include/QtWidgets/QSpacerItem \
   /opt/homebrew/include/QtWidgets/QTableView \
   /opt/homebrew/include/QtWidgets/qtableview.h \
+  /opt/homebrew/include/QtWidgets/QVBoxLayout \
   /opt/homebrew/include/QtWidgets/QWidget

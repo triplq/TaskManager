@@ -388,6 +388,12 @@
 			null
 		],
 		[
+			"/Users/alexey/TaskManager/completedtaskspage.h",
+			"MU",
+			"EWIEGA46WW/moc_completedtaskspage.cpp",
+			null
+		],
+		[
 			"/Users/alexey/TaskManager/hellopage.h",
 			"MU",
 			"EWIEGA46WW/moc_hellopage.cpp",
@@ -499,6 +505,7 @@
 	[
 		[ "/Users/alexey/TaskManager/admin.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/adminpage.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/completedtaskspage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/hellopage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/main.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/mainwindow.cpp", "MU", null ],

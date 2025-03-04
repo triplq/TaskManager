@@ -1167,6 +1167,10 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_completedtaskspage.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../completedtaskspage.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QShortcut \
+  /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_hellopage.cpp \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../hellopage.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_mainwindow.cpp \

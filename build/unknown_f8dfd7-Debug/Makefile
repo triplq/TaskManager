@@ -275,6 +275,30 @@ adminpage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/adminpage.cpp.s
 .PHONY : adminpage.cpp.s
 
+completedtaskspage.o: completedtaskspage.cpp.o
+.PHONY : completedtaskspage.o
+
+# target to build an object file
+completedtaskspage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o
+.PHONY : completedtaskspage.cpp.o
+
+completedtaskspage.i: completedtaskspage.cpp.i
+.PHONY : completedtaskspage.i
+
+# target to preprocess a source file
+completedtaskspage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/completedtaskspage.cpp.i
+.PHONY : completedtaskspage.cpp.i
+
+completedtaskspage.s: completedtaskspage.cpp.s
+.PHONY : completedtaskspage.s
+
+# target to generate assembly for a file
+completedtaskspage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/completedtaskspage.cpp.s
+.PHONY : completedtaskspage.cpp.s
+
 hellopage.o: hellopage.cpp.o
 .PHONY : hellopage.o
 
@@ -515,6 +539,9 @@ help:
 	@echo "... adminpage.o"
 	@echo "... adminpage.i"
 	@echo "... adminpage.s"
+	@echo "... completedtaskspage.o"
+	@echo "... completedtaskspage.i"
+	@echo "... completedtaskspage.s"
 	@echo "... hellopage.o"
 	@echo "... hellopage.i"
 	@echo "... hellopage.s"

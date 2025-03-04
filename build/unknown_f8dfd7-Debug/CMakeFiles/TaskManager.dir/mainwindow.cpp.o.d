@@ -1173,6 +1173,9 @@ CMakeFiles/TaskManager.dir/mainwindow.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/alexey/TaskManager/userpage.h \
+  /Users/alexey/TaskManager/completedtaskspage.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QShortcut \
+  /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/include/./ui_mainwindow.h \
   /opt/homebrew/include/QtCore/QVariant \
   /opt/homebrew/include/QtWidgets/QApplication \
