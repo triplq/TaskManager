@@ -17,6 +17,7 @@ public:
 
 signals:
     void SigninPageClicked();
+    void SignupPageClicked();
 
 private:
     Ui::HelloPage *ui;

@@ -939,14 +939,12 @@ TaskManager_autogen/timestamp: \
 	/Users/alexey/TaskManager/mainwindow.h \
 	/Users/alexey/TaskManager/signinpage.cpp \
 	/Users/alexey/TaskManager/signinpage.h \
-	/Users/alexey/TaskManager/task.cpp \
-	/Users/alexey/TaskManager/task.h \
+	/Users/alexey/TaskManager/signuppage.cpp \
+	/Users/alexey/TaskManager/signuppage.h \
 	/Users/alexey/TaskManager/taskmanager.cpp \
 	/Users/alexey/TaskManager/taskmanager.h \
 	/Users/alexey/TaskManager/taskworkdialog.cpp \
 	/Users/alexey/TaskManager/taskworkdialog.h \
-	/Users/alexey/TaskManager/user.cpp \
-	/Users/alexey/TaskManager/user.h \
 	/Users/alexey/TaskManager/userpage.cpp \
 	/Users/alexey/TaskManager/userpage.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -1383,6 +1381,7 @@ TaskManager_autogen/timestamp: \
 	/Users/alexey/TaskManager/hellopage.ui \
 	/Users/alexey/TaskManager/mainwindow.ui \
 	/Users/alexey/TaskManager/signinpage.ui \
+	/Users/alexey/TaskManager/signuppage.ui \
 	/Users/alexey/TaskManager/taskworkdialog.ui \
 	/Users/alexey/TaskManager/userpage.ui \
 	/Applications/CMake.app/Contents/bin/cmake

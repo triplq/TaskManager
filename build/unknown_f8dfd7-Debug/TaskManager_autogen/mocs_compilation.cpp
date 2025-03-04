@@ -4,5 +4,6 @@
 #include "EWIEGA46WW/moc_hellopage.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_signinpage.cpp"
+#include "EWIEGA46WW/moc_signuppage.cpp"
 #include "EWIEGA46WW/moc_taskworkdialog.cpp"
 #include "EWIEGA46WW/moc_userpage.cpp"

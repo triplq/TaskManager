@@ -7,6 +7,7 @@
 #include "signinpage.h"
 #include "adminpage.h"
 #include "userpage.h"
+#include "signuppage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,5 +29,6 @@ private:
     void showSigninPage();
     void showAdminPage();
     void showUserPage(const QString& user);
+    void showSignupPage();
 };
 #endif // MAINWINDOW_H

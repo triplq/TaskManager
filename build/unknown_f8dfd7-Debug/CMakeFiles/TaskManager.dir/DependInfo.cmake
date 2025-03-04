@@ -10,17 +10,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "TaskManager_autogen/timestamp" "custom" "TaskManager_autogen/deps"
   "/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/mocs_compilation.cpp" "CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o.d"
-  "/Users/alexey/TaskManager/admin.cpp" "CMakeFiles/TaskManager.dir/admin.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/admin.cpp.o.d"
   "/Users/alexey/TaskManager/adminpage.cpp" "CMakeFiles/TaskManager.dir/adminpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/adminpage.cpp.o.d"
   "/Users/alexey/TaskManager/completedtaskspage.cpp" "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/completedtaskspage.cpp.o.d"
   "/Users/alexey/TaskManager/hellopage.cpp" "CMakeFiles/TaskManager.dir/hellopage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/hellopage.cpp.o.d"
   "/Users/alexey/TaskManager/main.cpp" "CMakeFiles/TaskManager.dir/main.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/main.cpp.o.d"
   "/Users/alexey/TaskManager/mainwindow.cpp" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/mainwindow.cpp.o.d"
   "/Users/alexey/TaskManager/signinpage.cpp" "CMakeFiles/TaskManager.dir/signinpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/signinpage.cpp.o.d"
-  "/Users/alexey/TaskManager/task.cpp" "CMakeFiles/TaskManager.dir/task.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/task.cpp.o.d"
+  "/Users/alexey/TaskManager/signuppage.cpp" "CMakeFiles/TaskManager.dir/signuppage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/signuppage.cpp.o.d"
   "/Users/alexey/TaskManager/taskmanager.cpp" "CMakeFiles/TaskManager.dir/taskmanager.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/taskmanager.cpp.o.d"
   "/Users/alexey/TaskManager/taskworkdialog.cpp" "CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o.d"
-  "/Users/alexey/TaskManager/user.cpp" "CMakeFiles/TaskManager.dir/user.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/user.cpp.o.d"
   "/Users/alexey/TaskManager/userpage.cpp" "CMakeFiles/TaskManager.dir/userpage.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/userpage.cpp.o.d"
   )
 

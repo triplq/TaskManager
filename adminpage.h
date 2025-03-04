@@ -5,7 +5,6 @@
 #include <QSqlTableModel>
 #include <QTableView>
 #include <QMenu>
-#include "admin.h"
 #include "taskworkdialog.h"
 
 namespace Ui {

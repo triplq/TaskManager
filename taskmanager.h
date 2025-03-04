@@ -4,10 +4,11 @@
 #include <QtSql/QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
+#include <QMessageBox>
 
 class TaskManager {
 public:
-    void open_db();
+    bool open_db();
     void close_db();
     int open_account(QString &username, QString &phone_password);
 };

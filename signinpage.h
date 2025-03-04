@@ -19,7 +19,6 @@ public:
 
 signals:
     void backClicked();
-    void okClicked();
 
     void adminConnect();
     void userConnect(const QString& user);

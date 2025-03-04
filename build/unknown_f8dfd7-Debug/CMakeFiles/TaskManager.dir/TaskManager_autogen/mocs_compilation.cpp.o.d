@@ -1181,6 +1181,9 @@ CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../signinpage.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../userpage.h \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/../../../../signuppage.h \
+  /opt/homebrew/lib/QtSql.framework/Headers/QSqlDatabase \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_signinpage.cpp \
+  /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_signuppage.cpp \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_taskworkdialog.cpp \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/EWIEGA46WW/moc_userpage.cpp

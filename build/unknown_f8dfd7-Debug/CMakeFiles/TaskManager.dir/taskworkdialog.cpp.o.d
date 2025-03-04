@@ -1166,6 +1166,7 @@ CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o: \
   /opt/homebrew/include/QtWidgets/qlayout.h \
   /opt/homebrew/include/QtWidgets/qlayoutitem.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/QHBoxLayout \
   /opt/homebrew/include/QtWidgets/QLabel \
   /opt/homebrew/include/QtWidgets/qlabel.h \
   /opt/homebrew/include/QtWidgets/qframe.h \

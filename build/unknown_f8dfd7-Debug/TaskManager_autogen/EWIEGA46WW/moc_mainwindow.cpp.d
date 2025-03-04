@@ -894,6 +894,7 @@
   /Users/alexey/TaskManager/completedtaskspage.h \
   /Users/alexey/TaskManager/hellopage.h \
   /Users/alexey/TaskManager/signinpage.h \
+  /Users/alexey/TaskManager/signuppage.h \
   /Users/alexey/TaskManager/taskmanager.h \
   /Users/alexey/TaskManager/taskworkdialog.h \
   /Users/alexey/TaskManager/userpage.h \

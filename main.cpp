@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include "task.h"
 #include "taskmanager.h"
 
 #include <QApplication>
@@ -12,7 +11,8 @@ int main(int argc, char *argv[])
 
     TaskManager o;
 
-    o.open_db();
+    if(!o.open_db())
+        return 0;
 
     w.show();
     return a.exec();

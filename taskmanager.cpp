@@ -1,6 +1,6 @@
 #include "taskmanager.h"
 
-void TaskManager::open_db()
+bool TaskManager::open_db()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL", "task_db");
     db.setHostName("localhost");
@@ -10,9 +10,12 @@ void TaskManager::open_db()
     db.setPort(5432);
 
     if(!db.open())
-        qDebug() << db.lastError().text();
-    else
-        qDebug() << "Open";
+    {
+        QMessageBox::warning(nullptr, "Warning", db.lastError().text(), QMessageBox::Cancel);
+        return false;
+    }
+
+    return true;
 }
 
 int TaskManager::open_account(QString &username, QString &phone_password)
@@ -21,7 +24,7 @@ int TaskManager::open_account(QString &username, QString &phone_password)
     QSqlQuery query(db);
 
     query.prepare("SELECT id, name, admin FROM users "
-                  "WHERE name = :name AND phone = :pswd");
+                  "WHERE name = :name AND password = :pswd");
     query.bindValue(":name", username);
     query.bindValue(":pswd", phone_password);
     query.exec();

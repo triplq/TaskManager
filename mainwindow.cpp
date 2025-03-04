@@ -22,6 +22,7 @@ void MainWindow::showHelloPage()
     ui->stackedWidget->setCurrentWidget(helloPage);
 
     connect(helloPage, &HelloPage::SigninPageClicked, this, &MainWindow::showSigninPage);
+    connect(helloPage, &HelloPage::SignupPageClicked, this, &MainWindow::showSignupPage);
 }
 
 void MainWindow::showSigninPage()
@@ -47,4 +48,13 @@ void MainWindow::showUserPage(const QString& user)
     UserPage *userPage = new UserPage(this, user);
     ui->stackedWidget->addWidget(userPage);
     ui->stackedWidget->setCurrentWidget(userPage);
+}
+
+void MainWindow::showSignupPage()
+{
+    SignupPage *signupPage = new SignupPage();
+    ui->stackedWidget->addWidget(signupPage);
+    ui->stackedWidget->setCurrentWidget(signupPage);
+
+    connect(signupPage, &SignupPage::backClicked, this, &MainWindow::showHelloPage);
 }

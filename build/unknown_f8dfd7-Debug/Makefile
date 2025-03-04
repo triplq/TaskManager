@@ -227,30 +227,6 @@ TaskManager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/TaskManager_autogen/mocs_compilation.cpp.s
 .PHONY : TaskManager_autogen/mocs_compilation.cpp.s
 
-admin.o: admin.cpp.o
-.PHONY : admin.o
-
-# target to build an object file
-admin.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/admin.cpp.o
-.PHONY : admin.cpp.o
-
-admin.i: admin.cpp.i
-.PHONY : admin.i
-
-# target to preprocess a source file
-admin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/admin.cpp.i
-.PHONY : admin.cpp.i
-
-admin.s: admin.cpp.s
-.PHONY : admin.s
-
-# target to generate assembly for a file
-admin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/admin.cpp.s
-.PHONY : admin.cpp.s
-
 adminpage.o: adminpage.cpp.o
 .PHONY : adminpage.o
 
@@ -395,29 +371,29 @@ signinpage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signinpage.cpp.s
 .PHONY : signinpage.cpp.s
 
-task.o: task.cpp.o
-.PHONY : task.o
+signuppage.o: signuppage.cpp.o
+.PHONY : signuppage.o
 
 # target to build an object file
-task.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/task.cpp.o
-.PHONY : task.cpp.o
+signuppage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signuppage.cpp.o
+.PHONY : signuppage.cpp.o
 
-task.i: task.cpp.i
-.PHONY : task.i
+signuppage.i: signuppage.cpp.i
+.PHONY : signuppage.i
 
 # target to preprocess a source file
-task.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/task.cpp.i
-.PHONY : task.cpp.i
+signuppage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signuppage.cpp.i
+.PHONY : signuppage.cpp.i
 
-task.s: task.cpp.s
-.PHONY : task.s
+signuppage.s: signuppage.cpp.s
+.PHONY : signuppage.s
 
 # target to generate assembly for a file
-task.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/task.cpp.s
-.PHONY : task.cpp.s
+signuppage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/signuppage.cpp.s
+.PHONY : signuppage.cpp.s
 
 taskmanager.o: taskmanager.cpp.o
 .PHONY : taskmanager.o
@@ -467,30 +443,6 @@ taskworkdialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/taskworkdialog.cpp.s
 .PHONY : taskworkdialog.cpp.s
 
-user.o: user.cpp.o
-.PHONY : user.o
-
-# target to build an object file
-user.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/user.cpp.o
-.PHONY : user.cpp.o
-
-user.i: user.cpp.i
-.PHONY : user.i
-
-# target to preprocess a source file
-user.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/user.cpp.i
-.PHONY : user.cpp.i
-
-user.s: user.cpp.s
-.PHONY : user.s
-
-# target to generate assembly for a file
-user.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/user.cpp.s
-.PHONY : user.cpp.s
-
 userpage.o: userpage.cpp.o
 .PHONY : userpage.o
 
@@ -533,9 +485,6 @@ help:
 	@echo "... TaskManager_autogen/mocs_compilation.o"
 	@echo "... TaskManager_autogen/mocs_compilation.i"
 	@echo "... TaskManager_autogen/mocs_compilation.s"
-	@echo "... admin.o"
-	@echo "... admin.i"
-	@echo "... admin.s"
 	@echo "... adminpage.o"
 	@echo "... adminpage.i"
 	@echo "... adminpage.s"
@@ -554,18 +503,15 @@ help:
 	@echo "... signinpage.o"
 	@echo "... signinpage.i"
 	@echo "... signinpage.s"
-	@echo "... task.o"
-	@echo "... task.i"
-	@echo "... task.s"
+	@echo "... signuppage.o"
+	@echo "... signuppage.i"
+	@echo "... signuppage.s"
 	@echo "... taskmanager.o"
 	@echo "... taskmanager.i"
 	@echo "... taskmanager.s"
 	@echo "... taskworkdialog.o"
 	@echo "... taskworkdialog.i"
 	@echo "... taskworkdialog.s"
-	@echo "... user.o"
-	@echo "... user.i"
-	@echo "... user.s"
 	@echo "... userpage.o"
 	@echo "... userpage.i"
 	@echo "... userpage.s"

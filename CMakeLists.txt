@@ -18,14 +18,8 @@ set(PROJECT_SOURCES
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-    task.h
-    task.cpp
     taskmanager.h
     taskmanager.cpp
-    user.h
-    user.cpp
-    admin.h
-    admin.cpp
 )
 
 qt_add_executable(TaskManager
@@ -37,6 +31,7 @@ qt_add_executable(TaskManager
     taskworkdialog.h taskworkdialog.cpp taskworkdialog.ui
     userpage.h userpage.cpp userpage.ui
     completedtaskspage.h completedtaskspage.cpp completedtaskspage.ui
+    signuppage.h signuppage.cpp signuppage.ui
 )
 
 target_link_libraries(TaskManager PRIVATE Qt6::Widgets Qt6::Sql Qt6::Core)

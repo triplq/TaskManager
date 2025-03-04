@@ -14,6 +14,7 @@
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -33,7 +34,10 @@ public:
     QLineEdit *nameEdit;
     QLabel *label_2;
     QLineEdit *taskEdit;
+    QHBoxLayout *horizontalLayout;
+    QSpacerItem *horizontalSpacer;
     QCheckBox *statusBox;
+    QSpacerItem *horizontalSpacer_2;
     QSpacerItem *verticalSpacer;
     QPushButton *okButton;
 
@@ -44,7 +48,7 @@ public:
         TaskworkDialog->resize(240, 320);
         layoutWidget = new QWidget(TaskworkDialog);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(20, 10, 206, 291));
+        layoutWidget->setGeometry(QRect(20, 11, 197, 291));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -73,10 +77,23 @@ public:
 
         verticalLayout->addLayout(gridLayout);
 
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
         statusBox = new QCheckBox(layoutWidget);
         statusBox->setObjectName("statusBox");
 
-        verticalLayout->addWidget(statusBox);
+        horizontalLayout->addWidget(statusBox);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+
+        verticalLayout->addLayout(horizontalLayout);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -96,7 +113,7 @@ public:
     void retranslateUi(QDialog *TaskworkDialog)
     {
         TaskworkDialog->setWindowTitle(QCoreApplication::translate("TaskworkDialog", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("TaskworkDialog", "ID \320\270\320\274\320\265\320\275\320\270:", nullptr));
+        label->setText(QCoreApplication::translate("TaskworkDialog", "\320\230\320\274\321\217", nullptr));
         label_2->setText(QCoreApplication::translate("TaskworkDialog", "\320\227\320\260\320\264\320\260\320\275\320\270\320\265", nullptr));
         statusBox->setText(QCoreApplication::translate("TaskworkDialog", "\320\222\321\213\320\277\320\276\320\273\320\275\320\265\320\275\320\276", nullptr));
         okButton->setText(QCoreApplication::translate("TaskworkDialog", "OK", nullptr));

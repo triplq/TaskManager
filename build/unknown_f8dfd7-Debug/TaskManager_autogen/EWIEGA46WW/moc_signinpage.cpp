@@ -40,7 +40,6 @@ static constexpr auto qt_meta_stringdata_ZN10SigninPageE = QtMocHelpers::stringD
     "SigninPage",
     "backClicked",
     "",
-    "okClicked",
     "adminConnect",
     "userConnect",
     "user",
@@ -56,27 +55,25 @@ Q_CONSTINIT static const uint qt_meta_data_ZN10SigninPageE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       4,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   44,    2, 0x06,    1 /* Public */,
-       3,    0,   45,    2, 0x06,    2 /* Public */,
-       4,    0,   46,    2, 0x06,    3 /* Public */,
-       5,    1,   47,    2, 0x06,    4 /* Public */,
+       1,    0,   38,    2, 0x06,    1 /* Public */,
+       3,    0,   39,    2, 0x06,    2 /* Public */,
+       4,    1,   40,    2, 0x06,    3 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       7,    0,   50,    2, 0x08,    6 /* Private */,
+       6,    0,   43,    2, 0x08,    5 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void, QMetaType::QString,    5,
 
  // slots: parameters
     QMetaType::Void,
@@ -95,8 +92,6 @@ Q_CONSTINIT const QMetaObject SigninPage::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<SigninPage, std::true_type>,
         // method 'backClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'okClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'adminConnect'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'userConnect'
@@ -114,10 +109,9 @@ void SigninPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->backClicked(); break;
-        case 1: _t->okClicked(); break;
-        case 2: _t->adminConnect(); break;
-        case 3: _t->userConnect((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 4: _t->on_okButton_clicked(); break;
+        case 1: _t->adminConnect(); break;
+        case 2: _t->userConnect((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 3: _t->on_okButton_clicked(); break;
         default: ;
         }
     }
@@ -132,22 +126,15 @@ void SigninPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         }
         {
             using _q_method_type = void (SigninPage::*)();
-            if (_q_method_type _q_method = &SigninPage::okClicked; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 1;
-                return;
-            }
-        }
-        {
-            using _q_method_type = void (SigninPage::*)();
             if (_q_method_type _q_method = &SigninPage::adminConnect; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 2;
+                *result = 1;
                 return;
             }
         }
         {
             using _q_method_type = void (SigninPage::*)(const QString & );
             if (_q_method_type _q_method = &SigninPage::userConnect; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 3;
+                *result = 2;
                 return;
             }
         }
@@ -173,14 +160,14 @@ int SigninPage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 4;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 4;
     }
     return _id;
 }
@@ -192,21 +179,15 @@ void SigninPage::backClicked()
 }
 
 // SIGNAL 1
-void SigninPage::okClicked()
+void SigninPage::adminConnect()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void SigninPage::adminConnect()
-{
-    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
-}
-
-// SIGNAL 3
 void SigninPage::userConnect(const QString & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 QT_WARNING_POP

@@ -376,12 +376,6 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/alexey/TaskManager/admin.h",
-			"MU",
-			"EWIEGA46WW/moc_admin.cpp",
-			null
-		],
-		[
 			"/Users/alexey/TaskManager/adminpage.h",
 			"MU",
 			"EWIEGA46WW/moc_adminpage.cpp",
@@ -412,9 +406,9 @@
 			null
 		],
 		[
-			"/Users/alexey/TaskManager/task.h",
+			"/Users/alexey/TaskManager/signuppage.h",
 			"MU",
-			"EWIEGA46WW/moc_task.cpp",
+			"EWIEGA46WW/moc_signuppage.cpp",
 			null
 		],
 		[
@@ -427,12 +421,6 @@
 			"/Users/alexey/TaskManager/taskworkdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_taskworkdialog.cpp",
-			null
-		],
-		[
-			"/Users/alexey/TaskManager/user.h",
-			"MU",
-			"EWIEGA46WW/moc_user.cpp",
 			null
 		],
 		[
@@ -503,17 +491,15 @@
 	"SETTINGS_FILE" : "/Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/CMakeFiles/TaskManager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/alexey/TaskManager/admin.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/adminpage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/completedtaskspage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/hellopage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/main.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/mainwindow.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/signinpage.cpp", "MU", null ],
-		[ "/Users/alexey/TaskManager/task.cpp", "MU", null ],
+		[ "/Users/alexey/TaskManager/signuppage.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/taskmanager.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/taskworkdialog.cpp", "MU", null ],
-		[ "/Users/alexey/TaskManager/user.cpp", "MU", null ],
 		[ "/Users/alexey/TaskManager/userpage.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
