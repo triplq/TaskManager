@@ -22,6 +22,10 @@ AdminPage::AdminPage(QWidget *parent)
     ui->tasksView->setContextMenuPolicy(Qt::CustomContextMenu);
     ui->usersView->setContextMenuPolicy(Qt::CustomContextMenu);
 
+    ui->usersView->hideColumn(3);
+    ui->usersView->hideColumn(4);
+    ui->usersView->resizeColumnsToContents();
+
     connect(ui->tasksView, &QTableView::customContextMenuRequested, this, &AdminPage::showContextMenu);
     connect(ui->usersView, &QTableView::customContextMenuRequested, this, &AdminPage::showContextMenu);
 }
