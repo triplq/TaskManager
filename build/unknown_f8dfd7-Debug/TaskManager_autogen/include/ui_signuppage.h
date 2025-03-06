@@ -23,7 +23,7 @@ QT_BEGIN_NAMESPACE
 class Ui_SignupPage
 {
 public:
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QGridLayout *gridLayout;
@@ -41,45 +41,46 @@ public:
         SignupPage->resize(800, 600);
         SignupPage->setMinimumSize(QSize(800, 600));
         SignupPage->setMaximumSize(QSize(800, 600));
-        widget = new QWidget(SignupPage);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(220, 160, 218, 121));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(SignupPage);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(220, 160, 218, 121));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName("label");
 
         verticalLayout->addWidget(label);
 
         gridLayout = new QGridLayout();
         gridLayout->setObjectName("gridLayout");
-        label_2 = new QLabel(widget);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName("label_2");
 
         gridLayout->addWidget(label_2, 0, 0, 1, 1);
 
-        nameEdit = new QLineEdit(widget);
+        nameEdit = new QLineEdit(layoutWidget);
         nameEdit->setObjectName("nameEdit");
 
         gridLayout->addWidget(nameEdit, 0, 1, 1, 2);
 
-        label_3 = new QLabel(widget);
+        label_3 = new QLabel(layoutWidget);
         label_3->setObjectName("label_3");
 
         gridLayout->addWidget(label_3, 1, 0, 1, 1);
 
-        passwordEdit = new QLineEdit(widget);
+        passwordEdit = new QLineEdit(layoutWidget);
         passwordEdit->setObjectName("passwordEdit");
+        passwordEdit->setEchoMode(QLineEdit::EchoMode::Password);
 
         gridLayout->addWidget(passwordEdit, 1, 1, 1, 2);
 
-        okButton = new QPushButton(widget);
+        okButton = new QPushButton(layoutWidget);
         okButton->setObjectName("okButton");
 
         gridLayout->addWidget(okButton, 2, 0, 1, 2);
 
-        backButton = new QPushButton(widget);
+        backButton = new QPushButton(layoutWidget);
         backButton->setObjectName("backButton");
 
         gridLayout->addWidget(backButton, 2, 2, 1, 1);

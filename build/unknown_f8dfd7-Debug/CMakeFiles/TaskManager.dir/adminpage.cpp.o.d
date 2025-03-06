@@ -1151,9 +1151,9 @@ CMakeFiles/TaskManager.dir/adminpage.cpp.o: \
   /opt/homebrew/include/QtWidgets/qrubberband.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h \
-  /Users/alexey/TaskManager/admin.h \
-  /Users/alexey/TaskManager/taskmanager.h \
-  /opt/homebrew/include/QtSql/QSqlDatabase \
+  /Users/alexey/TaskManager/taskworkdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlQuery \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
@@ -1162,9 +1162,6 @@ CMakeFiles/TaskManager.dir/adminpage.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
-  /Users/alexey/TaskManager/taskworkdialog.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager_autogen/include/ui_adminpage.h \
   /opt/homebrew/include/QtCore/QVariant \
   /opt/homebrew/include/QtWidgets/QApplication \

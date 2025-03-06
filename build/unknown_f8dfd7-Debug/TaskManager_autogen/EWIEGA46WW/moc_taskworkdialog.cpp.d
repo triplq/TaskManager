@@ -889,8 +889,6 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
-  /Users/alexey/TaskManager/admin.h \
-  /Users/alexey/TaskManager/taskmanager.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -1037,7 +1035,6 @@
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtSql.framework/Versions/A/Headers/QSqlDatabase \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtSql.framework/Versions/A/Headers/QSqlError \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtSql.framework/Versions/A/Headers/QSqlQuery \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtSql.framework/Versions/A/Headers/QSqlTableModel \

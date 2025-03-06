@@ -3,7 +3,9 @@
 
 #include <QDialog>
 #include <QSqlTableModel>
-#include "admin.h"
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QMessageBox>
 
 namespace Ui {
 class TaskworkDialog;

@@ -366,6 +366,12 @@
 		"/opt/homebrew/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-release.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindOpenSSL.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],

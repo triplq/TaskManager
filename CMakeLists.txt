@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets Sql Core)
+find_package(OpenSSL REQUIRED)
 
 set(PROJECT_SOURCES
     main.cpp
@@ -32,9 +33,11 @@ qt_add_executable(TaskManager
     userpage.h userpage.cpp userpage.ui
     completedtaskspage.h completedtaskspage.cpp completedtaskspage.ui
     signuppage.h signuppage.cpp signuppage.ui
+
 )
 
 target_link_libraries(TaskManager PRIVATE Qt6::Widgets Qt6::Sql Qt6::Core)
+target_link_libraries(TaskManager PRIVATE OpenSSL::SSL OpenSSL::Crypto)
 
 set_target_properties(TaskManager PROPERTIES
     MACOSX_BUNDLE TRUE

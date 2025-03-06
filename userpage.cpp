@@ -42,15 +42,32 @@ void UserPage::on_doneButton_clicked()
     if(!index.isValid())
         return;
 
-    tasksModel->setData(index, true);
-    tasksModel->submitAll();
-    tasksModel->select();
+    int current_column = index.column();
+    int complete_column = tasksModel->fieldIndex("complete");
+
+    if(current_column == complete_column)
+    {
+        tasksModel->setData(index, true);
+        tasksModel->submitAll();
+        tasksModel->select();
+    }
+
+    else
+        return;
 }
 
 
 void UserPage::on_showButton_clicked()
 {
-    completedTasksPage = new CompletedTasksPage(this, user_id);
-    completedTasksPage->show();
+    if (!completedTasksPage) {
+        completedTasksPage = new CompletedTasksPage(this, user_id);
+    }
+
+    if (!completedTasksPage->isVisible()) {
+        completedTasksPage->show();
+    } else {
+        completedTasksPage->raise();
+        completedTasksPage->activateWindow();
+    }
 }
 

@@ -264,6 +264,8 @@ TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/signuppag
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/build.make
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtSql.framework/Versions/A/QtSql
+TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/libssl.dylib
+TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/libcrypto.dylib
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 TaskManager.app/Contents/MacOS/TaskManager: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 TaskManager.app/Contents/MacOS/TaskManager: CMakeFiles/TaskManager.dir/link.txt

@@ -6,6 +6,8 @@ SignupPage::SignupPage(QWidget *parent)
     , ui(new Ui::SignupPage)
 {
     ui->setupUi(this);
+
+    connect(ui->backButton, &QPushButton::clicked, this, &SignupPage::backClicked);
 }
 
 SignupPage::~SignupPage()
@@ -18,10 +20,14 @@ void SignupPage::on_okButton_clicked()
     QSqlDatabase db = QSqlDatabase::database("task_db");
     QSqlQuery query(db);
 
-    query.prepare("insert into users(name, password, admin) "
-                  "values(:name, :password, false)");
+    QString salt;
+    QString hash_password = TaskManager::reg_hashingPassword(ui->passwordEdit->text(), salt);
+
+    query.prepare("insert into users(name, admin, hash_password, salt) "
+                  "values(:name, false, :pswd, :salt)");
     query.bindValue(":name", ui->nameEdit->text());
-    query.bindValue(":password", ui->passwordEdit->text());
+    query.bindValue(":pswd", hash_password);
+    query.bindValue(":salt", salt);
 
     if(!query.exec())
         QMessageBox::warning(this, "Warning", query.lastError().text(), QMessageBox::Cancel);

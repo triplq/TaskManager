@@ -6,6 +6,7 @@
 #include <QSqlQuery>
 #include <QMessageBox>
 #include <QSqlError>
+#include "taskmanager.h"
 
 namespace Ui {
 class SignupPage;

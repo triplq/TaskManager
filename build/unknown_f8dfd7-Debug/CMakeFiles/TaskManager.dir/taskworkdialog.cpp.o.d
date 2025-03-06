@@ -1131,9 +1131,6 @@ CMakeFiles/TaskManager.dir/taskworkdialog.cpp.o: \
   /opt/homebrew/include/QtCore/qmetaobject.h \
   /opt/homebrew/include/QtSql/qsqlquerymodel.h \
   /opt/homebrew/include/QtCore/qabstractitemmodel.h \
-  /Users/alexey/TaskManager/admin.h \
-  /Users/alexey/TaskManager/taskmanager.h \
-  /opt/homebrew/include/QtSql/QSqlDatabase \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlQuery \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlquery.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlError \
