@@ -11,12 +11,15 @@
 
 class TaskManager {
 public:
-    bool open_db();
-    void close_db();
-    int open_account(QString &username, QString &phone_password);
+    TaskManager();
+    //bool open_db();
+    //void close_db();
+    static int open_account(QString &username, QString &phone_password);
     static QString reg_hashingPassword(const QString& password, QString& salt); //для регистрации
-    QString open_hashingPassword(const QString &password, const QString& salt); //для входа
+    static QString open_hashingPassword(const QString &password, const QString& salt); //для входа
     static QString randomString();
+
+    ~TaskManager();
 };
 
 #endif // TASKMANAGER_H

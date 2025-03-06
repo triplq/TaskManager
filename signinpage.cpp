@@ -12,12 +12,10 @@ SigninPage::SigninPage(QWidget *parent)
 
 void SigninPage::on_okButton_clicked()
 {
-    TaskManager base;
-
     QString name = ui->nameEdit->text();
     QString password = ui->passwordEdit->text();
 
-    int id = base.open_account(name, password);
+    int id = TaskManager::open_account(name, password);
 
     if(id == 0)
     {

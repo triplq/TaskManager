@@ -11,9 +11,6 @@ int main(int argc, char *argv[])
 
     TaskManager o;
 
-    if(!o.open_db())
-        return 0;
-
     w.show();
     return a.exec();
 }

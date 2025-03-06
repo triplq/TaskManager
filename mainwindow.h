@@ -30,5 +30,7 @@ private:
     void showAdminPage();
     void showUserPage(const QString& user);
     void showSignupPage();
+
+    //void closeEvent(QCloseEvent *event);
 };
 #endif // MAINWINDOW_H

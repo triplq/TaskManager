@@ -1,6 +1,6 @@
 #include "taskmanager.h"
 
-bool TaskManager::open_db()
+TaskManager::TaskManager()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL", "task_db");
     db.setHostName("localhost");
@@ -12,10 +12,7 @@ bool TaskManager::open_db()
     if(!db.open())
     {
         QMessageBox::warning(nullptr, "Warning", db.lastError().text(), QMessageBox::Cancel);
-        return false;
     }
-
-    return true;
 }
 
 int TaskManager::open_account(QString &username, QString &password)
@@ -52,17 +49,6 @@ int TaskManager::open_account(QString &username, QString &password)
 
     else if(query.value(2).toBool() == false)
         return query.value(0).toInt();
-}
-
-void TaskManager::close_db()
-{
-    QSqlDatabase db = QSqlDatabase::database("task_db");
-
-    if(db.isOpen())
-        db.close();
-
-    QSqlDatabase::removeDatabase("task_db");
-    qDebug() << "Соединение закрыто.";
 }
 
 QString TaskManager::reg_hashingPassword(const QString &password, QString& salt) //для регистрации
@@ -105,4 +91,15 @@ QString TaskManager::randomString()
     }
 
     return result;
+}
+
+TaskManager::~TaskManager()
+{
+    QSqlDatabase db = QSqlDatabase::database("task_db");
+
+    if(db.isOpen())
+        db.close();
+
+    QSqlDatabase::removeDatabase("task_db");
+    qDebug() << "Соединение закрыто.";
 }

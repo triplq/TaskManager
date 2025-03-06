@@ -58,3 +58,9 @@ void MainWindow::showSignupPage()
 
     connect(signupPage, &SignupPage::backClicked, this, &MainWindow::showHelloPage);
 }
+
+// void MainWindow::closeEvent(QCloseEvent *event)
+// {
+//     TaskManager::close_db();
+//     close()
+// }
