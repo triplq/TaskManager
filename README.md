@@ -49,10 +49,13 @@ CREATE TABLE public.users (
 
 2. Склонируйте репозиторий:  
 	git clone https://github.com/triplq/TaskManager.git
-	cd TaskManager
+	
+ cd TaskManager
 
 3. Соберите и запустите проект
 	mkdir build && cd build
-	cmake ..
-	make
+	
+ cmake ..
+	
+ make
 
