@@ -48,12 +48,14 @@ CREATE TABLE public.users (
    - CMake  
 
 2. Склонируйте репозиторий:  
-	git clone https://github.com/triplq/TaskManager.git
+	
+ git clone https://github.com/triplq/TaskManager.git
 	
  cd TaskManager
 
 3. Соберите и запустите проект
-	mkdir build && cd build
+	
+ mkdir build && cd build
 	
  cmake ..
 	
