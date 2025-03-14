@@ -30,6 +30,7 @@ CREATE TABLE public.tasks (
 	CONSTRAINT tasks_pkey PRIMARY KEY (id),
 	CONSTRAINT tasks_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(id) ON DELETE CASCADE
 );
+
 CREATE TABLE public.users (
 	id serial4 NOT NULL,
 	"name" varchar(30) NULL,
