@@ -44,12 +44,19 @@ CREATE TABLE public.tasks (
 );
 
 CREATE TABLE public.users (
+
 	id serial4 NOT NULL,
+ 
 	"name" varchar(30) NULL,
+ 
 	"admin" bool NULL,
+ 
 	hash_password text NULL,
+ 
 	salt text NULL,
+ 
 	CONSTRAINT users_pkey PRIMARY KEY (id)
+ 
 );
 
 ## Установка и запуск  
