@@ -28,12 +28,19 @@ TaskManager – это корпоративное приложение для у
 ## Настройки базы данных 
 
 CREATE TABLE public.tasks (
+
 	id serial4 NOT NULL,
+ 
 	user_id int4 NULL,
+ 
 	description varchar(30) NULL,
+ 
 	complete bool DEFAULT false NULL,
+ 
 	CONSTRAINT tasks_pkey PRIMARY KEY (id),
+ 
 	CONSTRAINT tasks_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(id) ON DELETE CASCADE
+ 
 );
 
 CREATE TABLE public.users (
