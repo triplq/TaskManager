@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'signinpage.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.2)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -17,8 +17,8 @@
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'signinpage.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -34,72 +34,45 @@ namespace {
 struct qt_meta_tag_ZN10SigninPageE_t {};
 } // unnamed namespace
 
+template <> constexpr inline auto SigninPage::qt_create_metaobjectdata<qt_meta_tag_ZN10SigninPageE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "SigninPage",
+        "backClicked",
+        "",
+        "adminConnect",
+        "userConnect",
+        "user",
+        "on_okButton_clicked"
+    };
 
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN10SigninPageE = QtMocHelpers::stringData(
-    "SigninPage",
-    "backClicked",
-    "",
-    "adminConnect",
-    "userConnect",
-    "user",
-    "on_okButton_clicked"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
-
-Q_CONSTINIT static const uint qt_meta_data_ZN10SigninPageE[] = {
-
- // content:
-      12,       // revision
-       0,       // classname
-       0,    0, // classinfo
-       4,   14, // methods
-       0,    0, // properties
-       0,    0, // enums/sets
-       0,    0, // constructors
-       0,       // flags
-       3,       // signalCount
-
- // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   38,    2, 0x06,    1 /* Public */,
-       3,    0,   39,    2, 0x06,    2 /* Public */,
-       4,    1,   40,    2, 0x06,    3 /* Public */,
-
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       6,    0,   43,    2, 0x08,    5 /* Private */,
-
- // signals: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    5,
-
- // slots: parameters
-    QMetaType::Void,
-
-       0        // eod
-};
-
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'backClicked'
+        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'adminConnect'
+        QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'userConnect'
+        QtMocHelpers::SignalData<void(const QString &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 5 },
+        }}),
+        // Slot 'on_okButton_clicked'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<SigninPage, qt_meta_tag_ZN10SigninPageE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
 Q_CONSTINIT const QMetaObject SigninPage::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_ZN10SigninPageE.offsetsAndSizes,
-    qt_meta_data_ZN10SigninPageE,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SigninPageE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SigninPageE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN10SigninPageE_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<SigninPage, std::true_type>,
-        // method 'backClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'adminConnect'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'userConnect'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
-        // method 'on_okButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
-    >,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN10SigninPageE_t>.metaTypes,
     nullptr
 } };
 
@@ -116,28 +89,12 @@ void SigninPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
-        int *result = reinterpret_cast<int *>(_a[0]);
-        {
-            using _q_method_type = void (SigninPage::*)();
-            if (_q_method_type _q_method = &SigninPage::backClicked; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 0;
-                return;
-            }
-        }
-        {
-            using _q_method_type = void (SigninPage::*)();
-            if (_q_method_type _q_method = &SigninPage::adminConnect; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 1;
-                return;
-            }
-        }
-        {
-            using _q_method_type = void (SigninPage::*)(const QString & );
-            if (_q_method_type _q_method = &SigninPage::userConnect; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 2;
-                return;
-            }
-        }
+        if (QtMocHelpers::indexOfMethod<void (SigninPage::*)()>(_a, &SigninPage::backClicked, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SigninPage::*)()>(_a, &SigninPage::adminConnect, 1))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (SigninPage::*)(const QString & )>(_a, &SigninPage::userConnect, 2))
+            return;
     }
 }
 
@@ -149,7 +106,7 @@ const QMetaObject *SigninPage::metaObject() const
 void *SigninPage::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN10SigninPageE.stringdata0))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SigninPageE_t>.strings))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -187,7 +144,6 @@ void SigninPage::adminConnect()
 // SIGNAL 2
 void SigninPage::userConnect(const QString & _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+    QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1);
 }
 QT_WARNING_POP
