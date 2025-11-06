@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_TaskManager_FILE /Users/alexey/TaskManager/build/unknown_f8dfd7-Debug/TaskManager.app/Contents/MacOS/TaskManager)
-set(__QT_DEPLOY_TARGET_TaskManager_TYPE EXECUTABLE)
