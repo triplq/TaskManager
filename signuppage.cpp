@@ -20,8 +20,14 @@ void SignupPage::on_okButton_clicked()
     QSqlDatabase db = QSqlDatabase::database("task_db");
     QSqlQuery query(db);
 
-    QString salt;
-    QString hash_password = TaskManager::reg_hashingPassword(ui->passwordEdit->text(), salt);
+    QString salt = TaskManager::generateSalt();
+    QString hash_password = TaskManager::hashPassword(ui->passwordEdit->text(), salt);
+
+    if(salt.isEmpty() || hash_password.isEmpty())
+    {
+        QMessageBox::warning(this, "Warning", "Не удалось захешировать пароль.", QMessageBox::Cancel);
+        return;
+    }
 
     query.prepare("insert into users(name, admin, hash_password, salt) "
                   "values(:name, false, :pswd, :salt)");

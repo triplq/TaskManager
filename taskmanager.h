@@ -7,7 +7,6 @@
 #include <QMessageBox>
 #include <openssl/evp.h>
 #include <QByteArray>
-#include <QRandomGenerator>
 
 class TaskManager {
 public:
@@ -15,9 +14,8 @@ public:
     //bool open_db();
     //void close_db();
     static int open_account(QString &username, QString &phone_password);
-    static QString reg_hashingPassword(const QString& password, QString& salt); //для регистрации
-    static QString open_hashingPassword(const QString &password, const QString& salt); //для входа
-    static QString randomString();
+    static QString generateSalt();                                              //случайная соль в hex
+    static QString hashPassword(const QString& password, const QString& salt);  //для входа и регистрации
 
     ~TaskManager();
 };

@@ -1,6 +1,13 @@
 #include "taskmanager.h"
 
+#include <openssl/rand.h>
+
 namespace {
+
+// Параметры хеширования паролей. Меняются только здесь.
+constexpr int PBKDF2_ITERATIONS = 600000;
+constexpr int SALT_BYTES = 16;
+constexpr int HASH_BYTES = 32;
 
 // Значения по умолчанию для подключения к БД. Пароль умолчания не имеет.
 constexpr auto DEFAULT_HOST = "localhost";
@@ -58,7 +65,7 @@ int TaskManager::open_account(QString &username, QString &password)
         return -1;
 
     QString salt = query.value(0).toString();
-    QString hashed_password = open_hashingPassword(password, salt);
+    QString hashed_password = hashPassword(password, salt);
 
     query.prepare("SELECT id, name, admin FROM users "
                   "WHERE name = :name AND hash_password = :pswd");
@@ -77,46 +84,29 @@ int TaskManager::open_account(QString &username, QString &password)
         return query.value(0).toInt();
 }
 
-QString TaskManager::reg_hashingPassword(const QString &password, QString& salt) //для регистрации
+QString TaskManager::generateSalt()
 {
-    salt = randomString();
-    QByteArray salt_utf8 = salt.toUtf8();
-    QByteArray saltedPassword = password.toUtf8() + salt_utf8;
+    unsigned char salt[SALT_BYTES];
 
-    unsigned char hash[EVP_MAX_MD_SIZE];
-    unsigned int length = 0;
+    if(RAND_bytes(salt, SALT_BYTES) != 1)
+        return QString();
 
-    EVP_Digest(saltedPassword.data(), saltedPassword.size(), hash, &length, EVP_sha256(), nullptr);
-
-    return QString(QByteArray(reinterpret_cast<const char*>(hash), length).toHex());
+    return QString(QByteArray(reinterpret_cast<const char*>(salt), SALT_BYTES).toHex());
 }
 
-QString TaskManager::open_hashingPassword(const QString &password, const QString& salt) //для входа
+QString TaskManager::hashPassword(const QString &password, const QString& salt)
 {
-    QByteArray salt_utf8 = salt.toUtf8();
-    QByteArray saltedPassword = password.toUtf8() + salt_utf8;
+    const QByteArray password_utf8 = password.toUtf8();
+    const QByteArray salt_bytes = QByteArray::fromHex(salt.toUtf8());
 
-    unsigned char hash[EVP_MAX_MD_SIZE];
-    unsigned int length = 0;
+    unsigned char hash[HASH_BYTES];
 
-    EVP_Digest(saltedPassword.data(), saltedPassword.size(), hash, &length, EVP_sha256(), nullptr);
+    if(PKCS5_PBKDF2_HMAC(password_utf8.constData(), password_utf8.size(),
+                         reinterpret_cast<const unsigned char*>(salt_bytes.constData()), salt_bytes.size(),
+                         PBKDF2_ITERATIONS, EVP_sha256(), HASH_BYTES, hash) != 1)
+        return QString();
 
-    return QString(QByteArray(reinterpret_cast<const char*>(hash), length).toHex());
-}
-
-
-QString TaskManager::randomString()
-{
-    QString symbols {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!?#$%@=+-"};
-    QString result;
-
-    for(unsigned i = 0; i < 6; i++)
-    {
-        unsigned index = QRandomGenerator::global()->bounded(symbols.length());
-        result.append(symbols.at(index));
-    }
-
-    return result;
+    return QString(QByteArray(reinterpret_cast<const char*>(hash), HASH_BYTES).toHex());
 }
 
 TaskManager::~TaskManager()
