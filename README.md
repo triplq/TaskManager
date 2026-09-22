@@ -73,7 +73,9 @@ CREATE TABLE public.users (
 
 3. Создайте таблицы из раздела «Настройки базы данных» — например, так:
 
-	docker compose exec -T db psql -U db_user -d task_db
+	docker compose exec db psql -U db_user -d task_db
+
+Если вы меняли `DB_USER` или `DB_NAME` в `.env`, подставьте свои значения.
 
 Остановить базу: `docker compose down`. Данные остаются в томе `postgres_data`;
 чтобы удалить и их — `docker compose down -v`.
