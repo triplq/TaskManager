@@ -126,6 +126,12 @@ Projects → Run → Environment → Add: имя `DB_PASSWORD`, значение
    - OpenSSL
    - Docker (если поднимаете базу через docker compose)
 
+   Qt должен быть с драйвером `QPSQL` — это отдельный плагин для PostgreSQL.
+   Если при запуске в консоль выводится
+   `QSqlDatabase: can not load requested driver 'QPSQL', available drivers: QSQLITE`,
+   значит плагина нет: возьмите Qt из официального установщика
+   (в сборке из Homebrew драйвера PostgreSQL нет).
+
 2. Склонируйте репозиторий:  
 	
  git clone https://github.com/triplq/TaskManager.git
