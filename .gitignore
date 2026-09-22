@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Каталоги сборки
+build/
+build-*/
+
+# Локальные настройки подключения к БД
+.env
