@@ -8,5 +8,8 @@ CMakeLists.txt.user*
 build/
 build-*/
 
+# Исходная запись демо (в репозитории лежит docs/demo.gif)
+*.mov
+
 # Локальные настройки подключения к БД
 .env
