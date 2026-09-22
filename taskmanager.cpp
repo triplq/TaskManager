@@ -1,13 +1,39 @@
 #include "taskmanager.h"
 
+namespace {
+
+// Значения по умолчанию для подключения к БД. Пароль умолчания не имеет.
+constexpr auto DEFAULT_HOST = "localhost";
+constexpr auto DEFAULT_NAME = "task_db";
+constexpr auto DEFAULT_USER = "db_user";
+constexpr int  DEFAULT_PORT = 5432;
+
+} // namespace
+
 TaskManager::TaskManager()
 {
+    if(!qEnvironmentVariableIsSet("DB_PASSWORD"))
+    {
+        QMessageBox::critical(nullptr, "Ошибка настройки",
+                              "Не задана переменная окружения DB_PASSWORD — "
+                              "подключиться к базе данных невозможно.\n\n"
+                              "Задайте пароль перед запуском, например:\n"
+                              "    export DB_PASSWORD=ваш_пароль\n\n"
+                              "Остальные параметры необязательны, у них есть значения "
+                              "по умолчанию: DB_HOST, DB_PORT, DB_NAME, DB_USER.\n"
+                              "Подробности — в README.",
+                              QMessageBox::Cancel);
+        return;
+    }
+
+    const int port = qEnvironmentVariableIntValue("DB_PORT");
+
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL", "task_db");
-    db.setHostName("localhost");
-    db.setDatabaseName("task_db");
-    db.setUserName("db_user");
-    db.setPassword("12345");
-    db.setPort(5432);
+    db.setHostName(qEnvironmentVariable("DB_HOST", DEFAULT_HOST));
+    db.setDatabaseName(qEnvironmentVariable("DB_NAME", DEFAULT_NAME));
+    db.setUserName(qEnvironmentVariable("DB_USER", DEFAULT_USER));
+    db.setPassword(qEnvironmentVariable("DB_PASSWORD"));
+    db.setPort(port > 0 ? port : DEFAULT_PORT);
 
     if(!db.open())
     {
@@ -95,6 +121,9 @@ QString TaskManager::randomString()
 
 TaskManager::~TaskManager()
 {
+    if(!QSqlDatabase::contains("task_db"))
+        return;
+
     QSqlDatabase db = QSqlDatabase::database("task_db");
 
     if(db.isOpen())
