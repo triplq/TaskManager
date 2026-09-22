@@ -82,6 +82,8 @@ int TaskManager::open_account(QString &username, QString &password)
 
     else if(query.value(2).toBool() == false)
         return query.value(0).toInt();
+
+    return -1;
 }
 
 QString TaskManager::generateSalt()
